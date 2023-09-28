@@ -1,0 +1,105 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Sun Aug 20 14:12:30 2023
+| Host         : DESKTOP-GD656IR running 64-bit major release  (build 9200)
+| Command      : report_methodology -file GPIO_demo_methodology_drc_routed.rpt -rpx GPIO_demo_methodology_drc_routed.rpx
+| Design       : GPIO_demo
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 13
++----------+----------+------------------------------------------+------------+
+| Rule     | Severity | Description                              | Violations |
++----------+----------+------------------------------------------+------------+
+| SYNTH-12 | Warning  | DSP input not registered                 | 11         |
+| XDCH-2   | Warning  | Same min and max delay values on IO port | 2          |
++----------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-12#1 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_APL_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#2 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_CREPINE_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#3 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_KC_0/I36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#4 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_KC_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#5 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_Krasavietz_class1_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#6 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_Krasavietz_class2_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#7 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_MBON_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#8 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_NP1227_class1_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#9 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_NP2426_class1_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#10 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_PN_0/I36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#11 Warning
+DSP input not registered  
+DSP instance dssn_ctrl_0/DSSN_PN_0/vv36_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'uart_txd_in' relative to clock clk_out1_clk_wiz_0 for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks [get_clocks -of_objects [get_pins inst_clk/inst/mmcm_adv_inst/CLKOUT0]]] 0.000 [get_ports uart_txd_in]
+D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/constrs_1/imports/constraints/CmodA7_Master.xdc (Line: 168)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'UART_TXD' relative to clock clk_out1_clk_wiz_0 for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks [get_clocks -of_objects [get_pins inst_clk/inst/mmcm_adv_inst/CLKOUT0]]] 0.000 [get_ports UART_TXD]
+D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/constrs_1/imports/constraints/CmodA7_Master.xdc (Line: 165)
+Related violations: <none>
+
+

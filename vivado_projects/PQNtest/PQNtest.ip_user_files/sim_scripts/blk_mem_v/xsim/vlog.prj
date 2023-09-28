@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../DrosophilaOlfactorySystem20210302.srcs/sources_1/ip/blk_mem_v/sim/blk_mem_v.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

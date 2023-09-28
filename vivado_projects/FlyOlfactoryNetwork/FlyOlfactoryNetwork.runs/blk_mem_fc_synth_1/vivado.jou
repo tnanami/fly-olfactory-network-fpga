@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Mar 24 15:01:04 2023
+# Process ID: 23464
+# Current directory: D:/research/Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.runs/blk_mem_fc_synth_1
+# Command line: vivado.exe -log blk_mem_fc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_fc.tcl
+# Log file: D:/research/Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.runs/blk_mem_fc_synth_1/blk_mem_fc.vds
+# Journal file: D:/research/Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.runs/blk_mem_fc_synth_1\vivado.jou
+#-----------------------------------------------------------
+source blk_mem_fc.tcl -notrace

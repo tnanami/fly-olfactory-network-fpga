@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_3" LaunchPart="xc7a35tcpg236-1" LaunchTime="1692508066">
+  <File Type="PWROPT-DRC" Name="GPIO_demo_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="GPIO_demo_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="GPIO_demo_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="GPIO_demo_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="GPIO_demo.tcl"/>
+  <File Type="OPT-HWDEF" Name="GPIO_demo.hwdef"/>
+  <File Type="RDI-RDI" Name="GPIO_demo.vdi"/>
+  <File Type="OPT-DCP" Name="GPIO_demo_opt.dcp"/>
+  <File Type="OPT-DRC" Name="GPIO_demo_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="GPIO_demo_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="GPIO_demo_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="GPIO_demo_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="GPIO_demo_placed.dcp"/>
+  <File Type="PLACE-IO" Name="GPIO_demo_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="GPIO_demo_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="GPIO_demo_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="GPIO_demo_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="GPIO_demo_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="GPIO_demo_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="GPIO_demo_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="GPIO_demo_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="GPIO_demo_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="GPIO_demo_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="GPIO_demo_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="GPIO_demo_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="GPIO_demo_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="GPIO_demo_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="GPIO_demo_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="GPIO_demo_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="GPIO_demo_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="GPIO_demo_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="GPIO_demo.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="GPIO_demo_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="GPIO_demo.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="GPIO_demo_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="GPIO_demo.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="GPIO_demo_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="GPIO_demo.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="GPIO_demo_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="GPIO_demo_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="GPIO_demo_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="GPIO_demo_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="GPIO_demo_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="GPIO_demo_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="GPIO_demo_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="GPIO_demo_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="GPIO_demo_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="GPIO_demo_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="GPIO_demo_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="GPIO_demo_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="GPIO_demo_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="GPIO_demo_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="GPIO_demo_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="GPIO_demo.bit"/>
+  <File Type="BITSTR-RBT" Name="GPIO_demo.rbt"/>
+  <File Type="BITSTR-NKY" Name="GPIO_demo.nky"/>
+  <File Type="BITSTR-BMM" Name="GPIO_demo_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="GPIO_demo.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="GPIO_demo.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_PN.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_PN.vhd"/>
+        <Attr Name="ImportTime" Val="1614157319"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_NP2426_class1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_NP2426_class1.vhd"/>
+        <Attr Name="ImportTime" Val="1613455332"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_NP1227_class1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_NP1227_class1.vhd"/>
+        <Attr Name="ImportTime" Val="1613455294"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_MBON.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_MBON.vhd"/>
+        <Attr Name="ImportTime" Val="1613455453"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_Krasavietz_class2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd"/>
+        <Attr Name="ImportTime" Val="1613455265"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_KC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_KC.vhd"/>
+        <Attr Name="ImportTime" Val="1613455385"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_CREPINE.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_CREPINE.vhd"/>
+        <Attr Name="ImportTime" Val="1613455483"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_APL.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_APL.vhd"/>
+        <Attr Name="ImportTime" Val="1613455419"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DSSN_Krasavietz_class1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd"/>
+        <Attr Name="ImportTime" Val="1613455214"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/UART_TX_CTRL.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Desktop/Cmod-A7-35T-GPIO/src/hdl/UART_TX_CTRL.vhd"/>
+        <Attr Name="ImportTime" Val="1494992748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dssn_glomeruli_ctrl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd"/>
+        <Attr Name="ImportTime" Val="1614158594"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UART_RX_CTRL.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/cmod_a7_pyserial/cmod_a7_pyserial.srcs/sources_1/new/UART_RX_CTRL.vhd"/>
+        <Attr Name="ImportTime" Val="1583924275"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Desktop/Cmod-A7-35T-GPIO/src/ip/clk_wiz_0/clk_wiz_0.xci"/>
+        <Attr Name="ImportTime" Val="1494992748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk1_generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201113/DrosophilaOlfactorySystem20201113.srcs/sources_1/new/clk1_generator.vhd"/>
+        <Attr Name="ImportTime" Val="1605868612"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk1k_generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201113/DrosophilaOlfactorySystem20201113.srcs/sources_1/new/clk1k_generator.vhd"/>
+        <Attr Name="ImportTime" Val="1605422162"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/blk_mem_ORN_ctrl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201113/DrosophilaOlfactorySystem20201113.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd"/>
+        <Attr Name="ImportTime" Val="1606460763"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/GPIO.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Desktop/Cmod-A7-35T-GPIO/src/hdl/GPIO.vhd"/>
+        <Attr Name="ImportTime" Val="1494992748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UART_TX_CTRL.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20210302/DrosophilaOlfactorySystem20210302.srcs/sources_1/new/UART_TX_CTRL.vhd"/>
+        <Attr Name="ImportTime" Val="1614869961"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_v/blk_mem_v.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem20201127/DrosophilaOlfactorySystem20201127.srcs/sources_1/ip/blk_mem_v/blk_mem_v.xci"/>
+        <Attr Name="ImportTime" Val="1611676067"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="GPIO_demo"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/CmodA7_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Desktop/Cmod-A7-35T-GPIO/src/constraints/CmodA7_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1494992748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/constraints/CmodA7_Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Performance_NetDelay_low" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">3</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1">
+      <Option Id="Directive">2</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_ORN_sc"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_ORN"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_n"/>
+  <BlockFileSet Type="BlockSrcs" Name="dssn_glomeruli_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_q"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_fc"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_u"/>
+</GenRun>

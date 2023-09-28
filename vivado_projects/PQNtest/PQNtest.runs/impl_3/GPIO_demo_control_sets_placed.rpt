@@ -1,0 +1,117 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Sun Aug 20 14:11:20 2023
+| Host         : DESKTOP-GD656IR running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file GPIO_demo_control_sets_placed.rpt
+| Design       : GPIO_demo
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    49 |
+| Unused register locations in slices containing registers |   135 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            3847 |         1018 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              57 |           16 |
+| Yes          | No                    | No                     |             839 |          323 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             218 |           62 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+----------------+
+|       Clock Signal      |                                                               Enable Signal                                                               |                    Set/Reset Signal                   | Slice Load Count | Bel Load Count |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+----------------+
+|  inst_clk/inst/clk_out1 | UART_TX_0/COUNTER0                                                                                                                        | UART_TX_0/COUNTER0[3]_i_1_n_0                         |                1 |              4 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/STATE_Iin2[3]_i_1_n_0                                                                                                         |                                                       |                1 |              4 |
+|  inst_clk/inst/clk_out1 |                                                                                                                                           | dssn_ctrl_0/DSSN_MBON_Iin[10]_i_1_n_0                 |                1 |              4 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/COUNTER3[3]_i_1_n_0                                                                                                           |                                                       |                3 |              4 |
+|  inst_clk/inst/clk_out1 |                                                                                                                                           | dssn_ctrl_0/DSSN_PN_Iin[9]_i_1_n_0                    |                1 |              4 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/STATE_Iin1                                                                                                                    |                                                       |                2 |              5 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/STATE_Iin                                                                                                                     |                                                       |                2 |              5 |
+|  inst_clk/inst/clk_out1 | UART_TX_0/STATE                                                                                                                           |                                                       |                3 |              5 |
+|  inst_clk/inst/clk_out1 | blk_mem_ORN_ctrl_0/DATA_PRE[5]_i_1_n_0                                                                                                    |                                                       |                1 |              6 |
+|  inst_clk/inst/clk_out1 | UART_TX_0/TX_DATA[7]_i_1_n_0                                                                                                              |                                                       |                3 |              8 |
+|  inst_clk/inst/clk_out1 | UART_TX_0/SEND                                                                                                                            |                                                       |                3 |              8 |
+|  inst_clk/inst/clk_out1 | blk_mem_ORN_ctrl_0/blk_mem_ORN_sc_addra[10]_i_2_n_0                                                                                       | blk_mem_ORN_ctrl_0/blk_mem_ORN_sc_addra[10]_i_1_n_0   |                6 |             11 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/mem_addra[11]_i_2_n_0                                                                                                         | dssn_ctrl_0/mem_addra[11]_i_1_n_0                     |                4 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_LN2_for_measuring[16]_i_1_n_0                                                                                            |                                                       |                2 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_APL_for_measuring[16]_i_1_n_0                                                                                            |                                                       |                5 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_CREPINE_for_measuring[16]_i_1_n_0                                                                                        |                                                       |                4 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_KC_for_measuring[16]_i_1_n_0                                                                                             |                                                       |                4 |             12 |
+|  inst_clk/inst/clk_out1 | blk_mem_ORN_ctrl_0/fifo_generator_ORN_din[11]_i_2_n_0                                                                                     | blk_mem_ORN_ctrl_0/fifo_generator_ORN_din[11]_i_1_n_0 |                2 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_LN0_for_measuring[16]_i_1_n_0                                                                                            |                                                       |                2 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_LN1_for_measuring[16]_i_1_n_0                                                                                            |                                                       |                4 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_LN3_for_measuring[16]_i_1_n_0                                                                                            |                                                       |                4 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_MBON_for_measuring[16]_i_1_n_0                                                                                           |                                                       |                3 |             12 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/PORT_PN_for_measuring[16]_i_1_n_0                                                                                             |                                                       |                5 |             12 |
+|  inst_clk/inst/clk_out1 | blk_mem_ORN_ctrl_0/PORT_UART_DATA_COUPLED[11]_i_1_n_0                                                                                     |                                                       |                4 |             13 |
+|  inst_clk/inst/clk_out1 |                                                                                                                                           | UART_TX_0/Inst_UART_TX_CTRL/bitTmr[0]_i_1_n_0         |                4 |             14 |
+|  inst_clk/inst/clk_out1 | Inst_UART_RX_CTRL/DELAY_COUNTER[0]_i_2_n_0                                                                                                | Inst_UART_RX_CTRL/DELAY_COUNTER                       |                4 |             14 |
+|  inst_clk/inst/clk_out1 | Inst_UART_RX_CTRL/GET_BIT_COUNTER[0]_i_2_n_0                                                                                              | Inst_UART_RX_CTRL/GET_BIT_COUNTER                     |                4 |             14 |
+|  inst_clk/inst/clk_out1 |                                                                                                                                           | clk1k_generator_0/eqOp                                |                5 |             17 |
+|  inst_clk/inst/clk_out1 |                                                                                                                                           | dssn_ctrl_0/DSSN_NP1227_class1_Iin[8]_i_1_n_0         |                5 |             18 |
+|  inst_clk/inst/clk_out1 | UART_TX_0/dssn_glomeruli_fifo_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/E[0]                              |                                                       |                6 |             22 |
+|  inst_clk/inst/clk_out1 | UART_TX_0/dssn_glomeruli_fifo_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0]                              |                                                       |                4 |             22 |
+|  inst_clk/inst/clk_out1 | blk_mem_ORN_ctrl_0/fifo_generator_ORN_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/gcc0.gc0.count_d1_reg[13] |                                                       |                7 |             28 |
+|  inst_clk/inst/clk_out1 | blk_mem_ORN_ctrl_0/fifo_generator_ORN_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/E[0]                      |                                                       |                6 |             28 |
+|  inst_clk/inst/clk_out1 | Inst_UART_RX_CTRL/BIT_INDEX[30]_i_1_n_0                                                                                                   |                                                       |                7 |             31 |
+|  inst_clk/inst/clk_out1 | UART_TX_0/Inst_UART_TX_CTRL/txBit_i_1_n_0                                                                                                 | UART_TX_0/Inst_UART_TX_CTRL/READY                     |                9 |             32 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/Iin_counter2[39]_i_2_n_0                                                                                                      | dssn_ctrl_0/Iin_counter2[39]_i_1_n_0                  |               10 |             39 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/Iin_counter0[39]_i_2_n_0                                                                                                      | dssn_ctrl_0/Iin_counter0[39]_i_1_n_0                  |               11 |             40 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/Iin_counter1[39]_i_2_n_0                                                                                                      | dssn_ctrl_0/Iin_counter1[39]_i_1_n_0                  |               11 |             40 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_APL_sin                                                                                                                  |                                                       |               19 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_CREPINE_sin                                                                                                              |                                                       |               19 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_Krasavietz_class2_sin                                                                                                    |                                                       |               27 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_MBON_fcin                                                                                                                |                                                       |               20 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_NP1227_class1_sin                                                                                                        |                                                       |               30 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_NP2426_class1_sin                                                                                                        |                                                       |               25 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_Krasavietz_class1_sin                                                                                                    |                                                       |               31 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/mem_q_dina                                                                                                                    |                                                       |               28 |             54 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_KC_sin                                                                                                                   |                                                       |               16 |             55 |
+|  inst_clk/inst/clk_out1 | dssn_ctrl_0/DSSN_PN_sin                                                                                                                   |                                                       |               23 |             55 |
+|  inst_clk/inst/clk_out1 |                                                                                                                                           |                                                       |             1018 |           3847 |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     5 |
+| 5      |                     3 |
+| 6      |                     1 |
+| 8      |                     2 |
+| 11     |                     1 |
+| 12     |                    11 |
+| 13     |                     1 |
+| 14     |                     3 |
+| 16+    |                    22 |
++--------+-----------------------+
+
+

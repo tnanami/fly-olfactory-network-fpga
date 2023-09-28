@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Aug 20 14:09:47 2023
+# Process ID: 7612
+# Current directory: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/impl_3
+# Command line: vivado.exe -log GPIO_demo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source GPIO_demo.tcl -notrace
+# Log file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/impl_3/GPIO_demo.vdi
+# Journal file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/impl_3\vivado.jou
+#-----------------------------------------------------------
+source GPIO_demo.tcl -notrace

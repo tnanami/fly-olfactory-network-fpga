@@ -1,0 +1,50 @@
+
+*** Running vivado
+    with args -log dssn_glomeruli_fifo.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dssn_glomeruli_fifo.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source dssn_glomeruli_fifo.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 366.590 ; gain = 156.434
+INFO: [Synth 8-638] synthesizing module 'dssn_glomeruli_fifo' [d:/research/Xilinx/DrosophilaOlfactorySystem20210701/DrosophilaOlfactorySystem20210701.srcs/sources_1/ip/dssn_glomeruli_fifo/synth/dssn_glomeruli_fifo.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'dssn_glomeruli_fifo' (24#1) [d:/research/Xilinx/DrosophilaOlfactorySystem20210701/DrosophilaOlfactorySystem20210701.srcs/sources_1/ip/dssn_glomeruli_fifo/synth/dssn_glomeruli_fifo.vhd:72]
+Finished RTL Elaboration : Time (s): cpu = 00:01:20 ; elapsed = 00:01:28 . Memory (MB): peak = 577.457 ; gain = 367.301
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:20 ; elapsed = 00:01:29 . Memory (MB): peak = 577.457 ; gain = 367.301
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 637.758 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:33 ; elapsed = 00:01:42 . Memory (MB): peak = 637.758 ; gain = 427.602
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:33 ; elapsed = 00:01:42 . Memory (MB): peak = 637.758 ; gain = 427.602
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:33 ; elapsed = 00:01:42 . Memory (MB): peak = 637.758 ; gain = 427.602
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:33 ; elapsed = 00:01:42 . Memory (MB): peak = 637.758 ; gain = 427.602
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:34 ; elapsed = 00:01:43 . Memory (MB): peak = 637.758 ; gain = 427.602
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:48 ; elapsed = 00:01:57 . Memory (MB): peak = 658.715 ; gain = 448.559
+Finished Timing Optimization : Time (s): cpu = 00:01:48 ; elapsed = 00:01:57 . Memory (MB): peak = 669.383 ; gain = 459.227
+Finished Technology Mapping : Time (s): cpu = 00:01:48 ; elapsed = 00:01:57 . Memory (MB): peak = 678.945 ; gain = 468.789
+Finished IO Insertion : Time (s): cpu = 00:01:48 ; elapsed = 00:01:58 . Memory (MB): peak = 678.945 ; gain = 468.789
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:48 ; elapsed = 00:01:58 . Memory (MB): peak = 678.945 ; gain = 468.789
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:49 ; elapsed = 00:01:58 . Memory (MB): peak = 678.945 ; gain = 468.789
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:49 ; elapsed = 00:01:58 . Memory (MB): peak = 678.945 ; gain = 468.789
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:49 ; elapsed = 00:01:58 . Memory (MB): peak = 678.945 ; gain = 468.789
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:49 ; elapsed = 00:01:58 . Memory (MB): peak = 678.945 ; gain = 468.789
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     4|
+|2     |LUT2     |    10|
+|3     |LUT3     |     5|
+|4     |LUT4     |    24|
+|5     |LUT5     |     4|
+|6     |LUT6     |     8|
+|7     |MUXCY    |    24|
+|8     |RAMB36E1 |     1|
+|9     |FDRE     |    44|
+|10    |FDSE     |     4|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:49 ; elapsed = 00:01:58 . Memory (MB): peak = 678.945 ; gain = 468.789
+synth_design: Time (s): cpu = 00:01:43 ; elapsed = 00:01:50 . Memory (MB): peak = 692.563 ; gain = 406.684

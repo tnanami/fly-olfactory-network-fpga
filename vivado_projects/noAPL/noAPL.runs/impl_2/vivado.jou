@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Sep 01 19:57:25 2023
+# Process ID: 10292
+# Current directory: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2
+# Command line: vivado.exe -log main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
+# Log file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main.vdi
+# Journal file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

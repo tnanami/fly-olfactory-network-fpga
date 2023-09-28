@@ -1,0 +1,36 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_ORN_sc/sim/blk_mem_gen_ORN_sc.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/fifo_generator_ORN/sim/fifo_generator_ORN.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_glomeruli_1/sim/blk_mem_gen_weight_glomeruli_1.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/dssn_glomeruli_fifo/sim/dssn_glomeruli_fifo.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_glomeruli_5/sim/blk_mem_gen_weight_glomeruli_5.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_LNPN_sc/sim/blk_mem_gen_LNPN_sc.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_glomeruli_0/sim/blk_mem_gen_weight_glomeruli_0.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_PN_sc/sim/blk_mem_PN_sc.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_KC_I/sim/blk_mem_KC_I.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_PNKC_1/sim/blk_mem_gen_weight_PNKC_1.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_PNKC_2/sim/blk_mem_gen_weight_PNKC_2.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_PNKC_3/sim/blk_mem_gen_weight_PNKC_3.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_n/sim/blk_mem_n.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_q/sim/blk_mem_q.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_glomeruli_4/sim/blk_mem_gen_weight_glomeruli_4.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_glomeruli_3/sim/blk_mem_gen_weight_glomeruli_3.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_glomeruli_2/sim/blk_mem_gen_weight_glomeruli_2.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_u/sim/blk_mem_u.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_fc/sim/blk_mem_fc.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_KC_APLMBONa3/sim/blk_mem_gen_weight_KC_APLMBONa3.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_KC_MBONa1/sim/blk_mem_gen_weight_KC_MBONa1.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_LNPN_I_inhi/sim/blk_mem_gen_LNPN_I_inhi.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_weight_PNKC_0/sim/blk_mem_gen_weight_PNKC_0.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_KC_sr_1/sim/blk_mem_KC_sr.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_KC_sc/sim/blk_mem_KC_sc.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_gen_LNPN_I/sim/blk_mem_gen_LNPN_I.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+verilog xil_defaultlib  "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/blk_mem_v/sim/blk_mem_v.v" --include "../../../DrosophilaOlfactorySystem20220104_PQNtest.srcs/sources_1/ip/clk_wiz_0"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

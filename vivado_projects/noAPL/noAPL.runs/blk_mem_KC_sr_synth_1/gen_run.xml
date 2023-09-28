@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="blk_mem_KC_sr_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1679637440">
+  <File Type="RDS-PROPCONSTRS" Name="blk_mem_KC_sr_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="blk_mem_KC_sr.tcl"/>
+  <File Type="RDS-RDS" Name="blk_mem_KC_sr.vds"/>
+  <File Type="RDS-UTIL" Name="blk_mem_KC_sr_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="blk_mem_KC_sr_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="blk_mem_KC_sr.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="blk_mem_KC_sr_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="blk_mem_KC_sr_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_KC_sr">
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.srcs/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.xci"/>
+        <Attr Name="ImportTime" Val="1679636403"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="blk_mem_KC_sr"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_KC_sr">
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.srcs/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.xci"/>
+        <Attr Name="ImportTime" Val="1679636403"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="blk_mem_KC_sr"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

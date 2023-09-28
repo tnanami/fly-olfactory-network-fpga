@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu May 25 22:39:03 2023
+# Process ID: 32324
+# Current directory: D:/research/Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.runs/fifo_rxd_synth_1
+# Command line: vivado.exe -log fifo_rxd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_rxd.tcl
+# Log file: D:/research/Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.runs/fifo_rxd_synth_1/fifo_rxd.vds
+# Journal file: D:/research/Xilinx/DrosophilaOlfactorySystem/release/DrosophilaOlfactorySystem20230324/DrosophilaOlfactorySystem20230324.runs/fifo_rxd_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_rxd.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP fifo_rxd, cache-ID = 64c11bb533bde5fe.

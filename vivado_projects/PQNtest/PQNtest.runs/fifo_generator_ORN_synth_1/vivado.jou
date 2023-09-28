@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Sep 28 02:24:53 2021
+# Process ID: 17132
+# Current directory: D:/research/Xilinx/DrosophilaOlfactorySystem_MBON_20210912/DrosophilaOlfactorySystem_MBON_20210912.runs/fifo_generator_ORN_synth_1
+# Command line: vivado.exe -log fifo_generator_ORN.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_generator_ORN.tcl
+# Log file: D:/research/Xilinx/DrosophilaOlfactorySystem_MBON_20210912/DrosophilaOlfactorySystem_MBON_20210912.runs/fifo_generator_ORN_synth_1/fifo_generator_ORN.vds
+# Journal file: D:/research/Xilinx/DrosophilaOlfactorySystem_MBON_20210912/DrosophilaOlfactorySystem_MBON_20210912.runs/fifo_generator_ORN_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_generator_ORN.tcl -notrace

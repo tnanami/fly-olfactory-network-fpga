@@ -1,0 +1,1337 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Aug 20 14:07:49 2023
+# Process ID: 25984
+# Current directory: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1
+# Command line: vivado.exe -log GPIO_demo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source GPIO_demo.tcl
+# Log file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/GPIO_demo.vds
+# Journal file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source GPIO_demo.tcl -notrace
+Command: synth_design -top GPIO_demo -part xc7a35tcpg236-1 -flatten_hierarchy none -directive RuntimeOptimized -fsm_extraction off
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14500 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 369.188 ; gain = 158.941
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'GPIO_demo' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:22]
+	Parameter UART_BYTE_SIZE bound to: 7 - type: integer 
+	Parameter UART_COUPLED_BYTE_SIZE bound to: 15 - type: integer 
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v:70' bound to instance 'inst_clk' of component 'clk_wiz_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:483]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v:70]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0_clk_wiz' [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:68]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14146]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20414]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 62.500000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 83.333000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 7.500000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0_clk_wiz' (4#1) [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:68]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (5#1) [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v:70]
+INFO: [Synth 8-3491] module 'clk1k_generator' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/clk1k_generator.vhd:34' bound to instance 'clk1k_generator_0' of component 'clk1k_generator' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:490]
+INFO: [Synth 8-638] synthesizing module 'clk1k_generator' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/clk1k_generator.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'clk1k_generator' (6#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/clk1k_generator.vhd:39]
+INFO: [Synth 8-3491] module 'clk1_generator' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/clk1_generator.vhd:34' bound to instance 'clk1_generator_0' of component 'clk1_generator' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:496]
+INFO: [Synth 8-638] synthesizing module 'clk1_generator' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/clk1_generator.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'clk1_generator' (7#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/clk1_generator.vhd:39]
+INFO: [Synth 8-3491] module 'UART_RX_CTRL' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_RX_CTRL.vhd:31' bound to instance 'Inst_UART_RX_CTRL' of component 'UART_RX_CTRL' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:502]
+INFO: [Synth 8-638] synthesizing module 'UART_RX_CTRL' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_RX_CTRL.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'UART_RX_CTRL' (8#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_RX_CTRL.vhd:41]
+INFO: [Synth 8-3491] module 'UART_TX' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_TX_CTRL.vhd:4' bound to instance 'UART_TX_0' of component 'UART_TX' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:511]
+INFO: [Synth 8-638] synthesizing module 'UART_TX' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_TX_CTRL.vhd:22]
+INFO: [Synth 8-3491] module 'dssn_glomeruli_fifo' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/dssn_glomeruli_fifo_stub.vhdl:5' bound to instance 'dssn_glomeruli_fifo_0' of component 'dssn_glomeruli_fifo' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_TX_CTRL.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'dssn_glomeruli_fifo' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/dssn_glomeruli_fifo_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'UART_TX_CTRL' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/UART_TX_CTRL.vhd:42' bound to instance 'Inst_UART_TX_CTRL' of component 'UART_TX_CTRL' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_TX_CTRL.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'UART_TX_CTRL' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/UART_TX_CTRL.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'UART_TX_CTRL' (9#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/UART_TX_CTRL.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'UART_TX' (10#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_TX_CTRL.vhd:22]
+INFO: [Synth 8-3491] module 'blk_mem_ORN_ctrl' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:32' bound to instance 'blk_mem_ORN_ctrl_0' of component 'blk_mem_ORN_ctrl' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:529]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_ORN_ctrl' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:52]
+	Parameter UART_BYTE_SIZE bound to: 7 - type: integer 
+	Parameter UART_COUPLED_BYTE_SIZE bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_generator_ORN' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/fifo_generator_ORN_stub.vhdl:5' bound to instance 'fifo_generator_ORN_0' of component 'fifo_generator_ORN' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_ORN' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/fifo_generator_ORN_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'blk_mem_gen_ORN_sc' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_gen_ORN_sc_stub.vhdl:5' bound to instance 'blk_mem_gen_ORN_sc_0' of component 'blk_mem_gen_ORN_sc' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_ORN_sc' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_gen_ORN_sc_stub.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_ORN_ctrl' (11#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:52]
+INFO: [Synth 8-3491] module 'dssn_ctrl' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:34' bound to instance 'dssn_ctrl_0' of component 'dssn_ctrl' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:543]
+INFO: [Synth 8-638] synthesizing module 'dssn_ctrl' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:84]
+INFO: [Synth 8-3491] module 'DSSN_Krasavietz_class1' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:6' bound to instance 'DSSN_Krasavietz_class1_0' of component 'DSSN_Krasavietz_class1' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1392]
+INFO: [Synth 8-638] synthesizing module 'DSSN_Krasavietz_class1' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:25]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:208]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_Krasavietz_class1' (12#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:25]
+INFO: [Synth 8-3491] module 'DSSN_Krasavietz_class2' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:6' bound to instance 'DSSN_Krasavietz_class2_0' of component 'DSSN_Krasavietz_class2' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1410]
+INFO: [Synth 8-638] synthesizing module 'DSSN_Krasavietz_class2' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:25]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:211]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_Krasavietz_class2' (13#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:25]
+INFO: [Synth 8-3491] module 'DSSN_NP1227_class1' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:5' bound to instance 'DSSN_NP1227_class1_0' of component 'DSSN_NP1227_class1' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1429]
+INFO: [Synth 8-638] synthesizing module 'DSSN_NP1227_class1' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:24]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:217]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_NP1227_class1' (14#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:24]
+INFO: [Synth 8-3491] module 'DSSN_NP2426_class1' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:6' bound to instance 'DSSN_NP2426_class1_0' of component 'DSSN_NP2426_class1' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1448]
+INFO: [Synth 8-638] synthesizing module 'DSSN_NP2426_class1' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:25]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:222]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_NP2426_class1' (15#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:25]
+INFO: [Synth 8-3491] module 'DSSN_PN' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:4' bound to instance 'DSSN_PN_0' of component 'DSSN_PN' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1467]
+INFO: [Synth 8-638] synthesizing module 'DSSN_PN' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'I36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:166]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:167]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:179]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_PN' (16#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:23]
+INFO: [Synth 8-3491] module 'DSSN_KC' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:4' bound to instance 'DSSN_KC_0' of component 'DSSN_KC' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1485]
+INFO: [Synth 8-638] synthesizing module 'DSSN_KC' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'I36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:160]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:161]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:173]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_KC' (17#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:23]
+INFO: [Synth 8-3491] module 'DSSN_APL' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:4' bound to instance 'DSSN_APL_0' of component 'DSSN_APL' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1503]
+INFO: [Synth 8-638] synthesizing module 'DSSN_APL' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:23]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:150]
+INFO: [Synth 8-4471] merging register 'con_vv_vS_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:153]
+INFO: [Synth 8-4471] merging register 'con_v_vS_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:155]
+INFO: [Synth 8-4471] merging register 'con_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:156]
+INFO: [Synth 8-4471] merging register 'coqleak_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:158]
+INFO: [Synth 8-4471] merging register 'coqI0_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:159]
+INFO: [Synth 8-4471] merging register 'coqIstim_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:160]
+INFO: [Synth 8-4471] merging register 'coqIgj1_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:162]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_APL' (18#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:23]
+INFO: [Synth 8-3491] module 'DSSN_MBON' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:4' bound to instance 'DSSN_MBON_0' of component 'DSSN_MBON' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1521]
+INFO: [Synth 8-638] synthesizing module 'DSSN_MBON' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:148]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:160]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_MBON' (19#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:23]
+INFO: [Synth 8-3491] module 'DSSN_CREPINE' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:4' bound to instance 'DSSN_CREPINE_0' of component 'DSSN_CREPINE' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1539]
+INFO: [Synth 8-638] synthesizing module 'DSSN_CREPINE' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:23]
+INFO: [Synth 8-4471] merging register 'coqIgj1_b0_reg[17:0]' into 'coqIgj0_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:179]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:155]
+INFO: [Synth 8-4471] merging register 'con_vv_vL_b0_reg[17:0]' into 'cov_vv_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:171]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'DSSN_CREPINE' (20#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:23]
+INFO: [Synth 8-3491] module 'blk_mem_v' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_v_stub.vhdl:5' bound to instance 'blk_mem_v_0' of component 'blk_mem_v' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1557]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_v' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_v_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_n' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_n_stub.vhdl:5' bound to instance 'blk_mem_n_0' of component 'blk_mem_n' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1565]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_n' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_n_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_q' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_q_stub.vhdl:5' bound to instance 'blk_mem_q_0' of component 'blk_mem_q' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1573]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_q' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_q_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_u' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_u_stub.vhdl:5' bound to instance 'blk_mem_u_0' of component 'blk_mem_u' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1581]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_u' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_u_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_fc' declared at 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_fc_stub.vhdl:5' bound to instance 'blk_mem_fc_0' of component 'blk_mem_fc' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1589]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_fc' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/realtime/blk_mem_fc_stub.vhdl:16]
+INFO: [Synth 8-4471] merging register 'mem_n_addra_reg[11:0]' into 'mem_v_addra_reg[11:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:704]
+INFO: [Synth 8-4471] merging register 'mem_q_addra_reg[11:0]' into 'mem_v_addra_reg[11:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:705]
+INFO: [Synth 8-4471] merging register 'mem_u_addra_reg[11:0]' into 'mem_v_addra_reg[11:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:706]
+INFO: [Synth 8-4471] merging register 'mem_fc_addra_reg[11:0]' into 'mem_v_addra_reg[11:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:707]
+INFO: [Synth 8-4471] merging register 'PORT_mem_KC_sc_addra_reg[10:0]' into 'PORT_mem_KC_I_addrb_reg[10:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:717]
+INFO: [Synth 8-4471] merging register 'PORT_mem_KC_sr_addra_reg[10:0]' into 'PORT_mem_KC_I_addrb_reg[10:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:718]
+INFO: [Synth 8-4471] merging register 'DSSN_KC_Iin_reg[17:0]' into 'DSSN_PN_Iin_reg[17:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:925]
+WARNING: [Synth 8-3848] Net PORT_mem_LNPN_sc_dina in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:44]
+WARNING: [Synth 8-3848] Net PORT_mem_LNPN_sc_wea in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:46]
+WARNING: [Synth 8-3848] Net PORT_mem_KC_sc_dina in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:50]
+WARNING: [Synth 8-3848] Net PORT_mem_KC_sc_wea in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:52]
+WARNING: [Synth 8-3848] Net PORT_mem_KC_sr_dina in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:54]
+WARNING: [Synth 8-3848] Net PORT_dssn_glomeruli_id in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:65]
+WARNING: [Synth 8-3848] Net PORT_mem_PN_sc_dina in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:68]
+WARNING: [Synth 8-3848] Net PORT_mem_PN_sc_wea in module/entity dssn_ctrl does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'dssn_ctrl' (21#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:84]
+WARNING: [Synth 8-3848] Net LED in module/entity GPIO_demo does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:13]
+WARNING: [Synth 8-3848] Net RGB0_Red in module/entity GPIO_demo does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:16]
+WARNING: [Synth 8-3848] Net RGB0_Green in module/entity GPIO_demo does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:17]
+WARNING: [Synth 8-3848] Net RGB0_Blue in module/entity GPIO_demo does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:18]
+WARNING: [Synth 8-3848] Net clkRst in module/entity GPIO_demo does not have driver. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:353]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_demo' (22#1) [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:22]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[17]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[16]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[15]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[14]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[13]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[12]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[11]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[10]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[9]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[8]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[7]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[6]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[5]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[4]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[3]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[2]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[1]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_dina[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_sc_wea[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[17]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[16]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[15]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[14]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[13]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[12]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[11]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[10]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[9]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[8]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[7]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[6]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[5]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[4]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[3]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[2]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[1]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_dina[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sc_wea[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[17]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[16]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[15]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[14]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[13]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[12]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[11]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[10]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[9]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[8]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[7]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[6]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[5]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[4]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[3]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[2]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[1]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_KC_sr_dina[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[11]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[10]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[9]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[8]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[7]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[6]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[5]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[4]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[3]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[2]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[1]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_dssn_glomeruli_id[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[17]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[16]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[15]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[14]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[13]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[12]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[11]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[10]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[9]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[8]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[7]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[6]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[5]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[4]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[3]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[2]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[1]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_dina[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_PN_sc_wea[0]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port clk1
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[17]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[16]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[15]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[14]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[13]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[12]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[11]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[10]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[9]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[8]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[7]
+WARNING: [Synth 8-3331] design dssn_ctrl has unconnected port PORT_mem_LNPN_I_doutb[6]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 452.258 ; gain = 242.012
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin inst_clk:reset to constant 0 [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/imports/hdl/GPIO.vhd:483]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 452.258 ; gain = 242.012
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_fc' instantiated as 'dssn_ctrl_0/blk_mem_fc_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1589]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_gen_ORN_sc' instantiated as 'blk_mem_ORN_ctrl_0/blk_mem_gen_ORN_sc_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:152]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_n' instantiated as 'dssn_ctrl_0/blk_mem_n_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1565]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_q' instantiated as 'dssn_ctrl_0/blk_mem_q_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1573]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_u' instantiated as 'dssn_ctrl_0/blk_mem_u_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1581]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_v' instantiated as 'dssn_ctrl_0/blk_mem_v_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1557]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dssn_glomeruli_fifo' instantiated as 'UART_TX_0/dssn_glomeruli_fifo_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/UART_TX_CTRL.vhd:71]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'fifo_generator_ORN' instantiated as 'blk_mem_ORN_ctrl_0/fifo_generator_ORN_0' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:141]
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp/blk_mem_gen_ORN_sc_in_context.xdc] for cell 'blk_mem_ORN_ctrl_0/blk_mem_gen_ORN_sc_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp/blk_mem_gen_ORN_sc_in_context.xdc] for cell 'blk_mem_ORN_ctrl_0/blk_mem_gen_ORN_sc_0'
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_2/fifo_generator_ORN_in_context.xdc] for cell 'blk_mem_ORN_ctrl_0/fifo_generator_ORN_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_2/fifo_generator_ORN_in_context.xdc] for cell 'blk_mem_ORN_ctrl_0/fifo_generator_ORN_0'
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_3/dssn_glomeruli_fifo_in_context.xdc] for cell 'UART_TX_0/dssn_glomeruli_fifo_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_3/dssn_glomeruli_fifo_in_context.xdc] for cell 'UART_TX_0/dssn_glomeruli_fifo_0'
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_4/blk_mem_n_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_n_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_4/blk_mem_n_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_n_0'
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_5/blk_mem_v_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_q_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_5/blk_mem_v_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_q_0'
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_6/blk_mem_u_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_u_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_6/blk_mem_u_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_u_0'
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_7/blk_mem_fc_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_fc_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_7/blk_mem_fc_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_fc_0'
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_8/blk_mem_u_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_v_0'
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/.Xil/Vivado-25984-DESKTOP-GD656IR/dcp_8/blk_mem_u_in_context.xdc] for cell 'dssn_ctrl_0/blk_mem_v_0'
+Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'inst_clk/inst'
+Finished Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'inst_clk/inst'
+Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'inst_clk/inst'
+Finished Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'inst_clk/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/GPIO_demo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/GPIO_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/constrs_1/imports/constraints/CmodA7_Master.xdc]
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/constrs_1/imports/constraints/CmodA7_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/constrs_1/imports/constraints/CmodA7_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/GPIO_demo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/GPIO_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/GPIO_demo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/GPIO_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 762.438 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_ORN_ctrl_0/blk_mem_gen_ORN_sc_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dssn_ctrl_0/blk_mem_fc_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dssn_ctrl_0/blk_mem_n_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dssn_ctrl_0/blk_mem_q_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dssn_ctrl_0/blk_mem_u_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dssn_ctrl_0/blk_mem_v_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 762.438 ; gain = 552.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 762.438 ; gain = 552.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst_clk/inst. (constraint file  D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/dont_touch.xdc, line 13).
+Applied set_property DONT_TOUCH = true for dssn_ctrl_0/blk_mem_v_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst_clk. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 762.438 ; gain = 552.191
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "READY_O" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RX_STATE" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "BIT_INDEX" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "DELAY_DONE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "GET_BIT_DONE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "READY" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "DONE" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "txState" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "bitIndex" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-3936] Found unconnected internal register 'DATA_PRE_reg' and it is trimmed from '8' to '6' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/blk_mem_ORN_ctrl.vhd:173]
+INFO: [Synth 8-5544] ROM "fifo_generator_ORN_rd_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_generator_ORN_rd_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "STATE_fifo_generator_ORN_write" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "STATE_blk_mem_ORN_sc_update" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "STATE_blk_mem_ORN_sc_update" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:243]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:248]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:253]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class1.vhd:258]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:246]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:251]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:256]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_Krasavietz_class2.vhd:261]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:252]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:257]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:262]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP1227_class1.vhd:267]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:257]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:262]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:267]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_NP2426_class1.vhd:272]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:201]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:206]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_PN.vhd:212]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:195]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:200]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_KC.vhd:206]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:172]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:177]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_APL.vhd:183]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:182]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:187]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_MBON.vhd:193]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:189]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:194]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/DSSN_CREPINE.vhd:200]
+INFO: [Synth 8-4471] merging register 'PORT_mem_LNPN_I_inhi_addrb_reg[8:0]' into 'PORT_mem_LNPN_I_addrb_reg[8:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:710]
+INFO: [Synth 8-4471] merging register 'PORT_mem_LNPN_sc_addra_reg[8:0]' into 'PORT_mem_LNPN_I_addrb_reg[8:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:711]
+INFO: [Synth 8-4471] merging register 'mem_n_wea_reg[0:0]' into 'mem_v_wea_reg[0:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1290]
+INFO: [Synth 8-4471] merging register 'mem_q_wea_reg[0:0]' into 'mem_v_wea_reg[0:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1291]
+INFO: [Synth 8-4471] merging register 'mem_fc_wea_reg[0:0]' into 'mem_v_wea_reg[0:0]' [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:1292]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mem_KC_addra_reg' and it is trimmed from '12' to '11' bits. [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.srcs/sources_1/new/dssn_glomeruli_ctrl.vhd:714]
+INFO: [Synth 8-5544] ROM "STATE" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "STATE" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 762.438 ; gain = 552.191
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |clk_wiz_0_clk_wiz__GC0 |           1|         3|
+|2     |dssn_ctrl__GB0         |           1|     19662|
+|3     |dssn_ctrl__GB1         |           1|     18087|
+|4     |dssn_ctrl__GB2         |           1|      9784|
+|5     |dssn_ctrl__GB3         |           1|     12166|
+|6     |GPIO_demo__GC0         |           1|      2214|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     40 Bit       Adders := 3     
+	   2 Input     31 Bit       Adders := 1     
+	   5 Input     28 Bit       Adders := 9     
+	  10 Input     28 Bit       Adders := 1     
+	   6 Input     28 Bit       Adders := 3     
+	   3 Input     28 Bit       Adders := 11    
+	   4 Input     28 Bit       Adders := 14    
+	   8 Input     28 Bit       Adders := 2     
+	   9 Input     28 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 4     
+	   5 Input     27 Bit       Adders := 5     
+	   6 Input     27 Bit       Adders := 3     
+	   2 Input     27 Bit       Adders := 1     
+	   4 Input     27 Bit       Adders := 1     
+	   8 Input     27 Bit       Adders := 1     
+	   6 Input     26 Bit       Adders := 2     
+	   8 Input     26 Bit       Adders := 2     
+	   2 Input     26 Bit       Adders := 2     
+	   7 Input     25 Bit       Adders := 2     
+	   6 Input     25 Bit       Adders := 2     
+	   4 Input     25 Bit       Adders := 1     
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   5 Input     24 Bit       Adders := 2     
+	   5 Input     23 Bit       Adders := 1     
+	   4 Input     23 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 3     
+	   2 Input     21 Bit       Adders := 2     
+	   2 Input     20 Bit       Adders := 1     
+	   4 Input     20 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 5     
+	   5 Input     18 Bit       Adders := 17    
+	   3 Input     18 Bit       Adders := 14    
+	   2 Input     18 Bit       Adders := 20    
+	   6 Input     18 Bit       Adders := 4     
+	   4 Input     18 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 9     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               40 Bit    Registers := 3     
+	               31 Bit    Registers := 1     
+	               18 Bit    Registers := 412   
+	               17 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 44    
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 28    
++---Muxes : 
+	   4 Input     40 Bit        Muxes := 2     
+	  12 Input     40 Bit        Muxes := 1     
+	   4 Input     31 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 72    
+	  18 Input     18 Bit        Muxes := 6     
+	  12 Input     18 Bit        Muxes := 2     
+	   7 Input     18 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 3     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 5     
+	   2 Input     11 Bit        Muxes := 4     
+	   7 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 11    
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	  25 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 11    
+	  24 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	  18 Input      2 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 38    
+	   2 Input      1 Bit        Muxes := 51    
+	  10 Input      1 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	  24 Input      1 Bit        Muxes := 5     
+	   7 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module GPIO_demo 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+Module DSSN_NP1227_class1 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     28 Bit       Adders := 3     
+	  10 Input     28 Bit       Adders := 1     
+	   6 Input     28 Bit       Adders := 1     
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 2     
+	   6 Input     26 Bit       Adders := 1     
+	   8 Input     26 Bit       Adders := 1     
+	   7 Input     25 Bit       Adders := 1     
+	   6 Input     25 Bit       Adders := 1     
+	   5 Input     23 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+Module DSSN_PN 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 3     
+	   4 Input     28 Bit       Adders := 1     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 2     
+	   2 Input     18 Bit       Adders := 3     
+	   6 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 38    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 5     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+Module DSSN_CREPINE 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 1     
+	   4 Input     18 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 36    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 7     
+	   2 Input     10 Bit        Muxes := 2     
+Module DSSN_NP2426_class1 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     28 Bit       Adders := 2     
+	   6 Input     28 Bit       Adders := 1     
+	   8 Input     28 Bit       Adders := 2     
+	   3 Input     28 Bit       Adders := 2     
+	   4 Input     28 Bit       Adders := 4     
+	   5 Input     27 Bit       Adders := 1     
+	   6 Input     27 Bit       Adders := 1     
+	   6 Input     26 Bit       Adders := 1     
+	   8 Input     26 Bit       Adders := 1     
+	   5 Input     24 Bit       Adders := 2     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+Module DSSN_Krasavietz_class1 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     28 Bit       Adders := 4     
+	   9 Input     28 Bit       Adders := 1     
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   5 Input     27 Bit       Adders := 1     
+	   6 Input     27 Bit       Adders := 1     
+	   7 Input     25 Bit       Adders := 1     
+	   4 Input     25 Bit       Adders := 1     
+	   6 Input     25 Bit       Adders := 1     
+	   3 Input     25 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+Module DSSN_MBON 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 2     
+	   6 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 39    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 7     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+Module DSSN_APL 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     28 Bit       Adders := 1     
+	   6 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 31    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+Module DSSN_KC 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 2     
+	   6 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 38    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 5     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+Module DSSN_Krasavietz_class2 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     28 Bit       Adders := 3     
+	   6 Input     28 Bit       Adders := 1     
+	   3 Input     28 Bit       Adders := 1     
+	   2 Input     27 Bit       Adders := 1     
+	   4 Input     27 Bit       Adders := 1     
+	   5 Input     27 Bit       Adders := 3     
+	   8 Input     27 Bit       Adders := 1     
+	   6 Input     27 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 1     
+	   2 Input     26 Bit       Adders := 1     
+	   4 Input     23 Bit       Adders := 1     
+	   4 Input     20 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+Module dssn_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     40 Bit       Adders := 3     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 3     
+	               18 Bit    Registers := 65    
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 7     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input     40 Bit        Muxes := 2     
+	  12 Input     40 Bit        Muxes := 1     
+	  18 Input     18 Bit        Muxes := 6     
+	  12 Input     18 Bit        Muxes := 2     
+	   2 Input     18 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   4 Input      3 Bit        Muxes := 1     
+	  18 Input      2 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 31    
+	   2 Input      1 Bit        Muxes := 8     
+	  10 Input      1 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 2     
+Module clk1k_generator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clk1_generator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module UART_RX_CTRL 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input     31 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+Module UART_TX_CTRL 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 3     
+Module UART_TX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  25 Input      5 Bit        Muxes := 1     
+	  24 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  24 Input      1 Bit        Muxes := 5     
+Module blk_mem_ORN_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   7 Input     18 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 3     
+	   2 Input     11 Bit        Muxes := 2     
+	   7 Input     11 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   7 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 33    
+	   4 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[0]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[1]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[2]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[3]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[4]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[5]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[6]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[7]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[8]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (dssn_ctrl_0/i_0/\DSSN_PN_uin_reg[10] )
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[11]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[12]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[13]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[14]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[15]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[16]' (FDE) to 'dssn_ctrl_0/i_0/DSSN_PN_uin_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/\DSSN_PN_uin_reg[17] )
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[0]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[4]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[1]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[5]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[2]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[6]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[3]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[4]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[8]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[5]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[9]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[10]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[11]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[12]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[13]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[14]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_Iin_reg[17]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[0]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[4]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[1]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[5]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[2]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[6]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[3]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[9]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[10]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[11]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[12]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[13]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[14]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_Iin_reg[17]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_n_b0_reg[14]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_n_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_n_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_n_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_n_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_n_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[12]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[13]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[13]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[14]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[14]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vS_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_vv_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vS_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_CREPINE_0/con_v_vL_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_n_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_n_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[0]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[0]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[1]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[1]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[2]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[2]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[3]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[3]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[4]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[4]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[5]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[5]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[6]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[6]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[7]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[7]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[8]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[8]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[9]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[9]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[10]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[10]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[11]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[11]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[12]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/cov_vv_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[12]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[13]' (FDS) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[13]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[14]' (FDS) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[14]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[15]' (FDS) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/cov_vv_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[16]' (FDS) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[16]' (FDS) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vL_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vL_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vS_b0_reg[17]' (FDS) to 'dssn_ctrl_0/i_0/DSSN_PN_0/con_vv_vL_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_PN_0/con_v_vS_b0_reg[17]' (FD) to 'dssn_ctrl_0/i_0/DSSN_PN_0/vin_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_n_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_n_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_n_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_n_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_vv_vS_b0_reg[15]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_vv_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_vv_vS_b0_reg[16]' (FD) to 'dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/con_vv_vS_b0_reg[17]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/DSSN_PN_0/\coqI0_b0_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/DSSN_CREPINE_0/\coqIgj0_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/\DSSN_PN_Iin_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/DSSN_CREPINE_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/DSSN_NP1227_class1_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/DSSN_CREPINE_0/\cov_Istim_b0_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_0/DSSN_CREPINE_0/\cov_Istim_b0_reg[17] )
+WARNING: [Synth 8-3332] Sequential element (I18_reg[17]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[17]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[16]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[15]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[14]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[13]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[12]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[11]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[10]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[9]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[8]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[7]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[6]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[5]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[4]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[3]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[2]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[1]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_reg[0]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[17]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[16]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[15]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[14]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[13]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[12]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[11]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[10]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[9]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[8]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[7]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[6]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[5]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[4]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[3]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[2]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[1]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sin_b0_reg[0]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[17]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[16]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[15]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[14]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[13]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[12]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[11]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[10]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[9]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[8]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[7]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[6]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[5]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[4]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[3]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[2]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[1]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vS_b0_reg[0]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[17]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[16]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[15]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[14]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[13]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[12]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[11]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[10]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[9]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[8]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[7]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[6]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[5]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[4]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[3]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[2]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[1]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (cos_s_vL_b0_reg[0]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[17]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[16]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[15]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[14]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[13]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[12]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[11]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[10]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[9]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[8]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[7]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[6]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[5]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[4]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[3]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[2]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[1]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (sout_b0_reg[0]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[17]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[16]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[15]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[14]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[13]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[12]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[11]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[10]) is unused and will be removed from module DSSN_NP1227_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_sout_reg[9]) is unused and will be removed from module DSSN_NP1227_class1.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_1/\DSSN_NP2426_class1_Iin_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_1/DSSN_Krasavietz_class1_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_1/DSSN_NP2426_class1_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_1/DSSN_Krasavietz_class1_0/\cov_Istim_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_1/DSSN_NP2426_class1_0/\cov_Istim_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/\DSSN_MBON_Iin_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_APL_0/\cov_v_vS_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_MBON_0/\coqI0_b0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/\mem_u_wea_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/\PORT_mem_KC_sr_wea_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/PORT_dssn_glomeruli_wr_en_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/\STATE_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_APL_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_MBON_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_APL_0/\cov_Istim_b0_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_APL_0/\cov_Istim_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_MBON_0/\coqIstim_b0_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_2/DSSN_MBON_0/\coqIstim_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_3/\DSSN_Krasavietz_class2_Iin_reg[17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (dssn_ctrl_0/i_3/\DSSN_KC_uin_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_3/\DSSN_KC_uin_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_3/DSSN_KC_0/\coqI0_b0_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_3/\PORT_mem_MBON0_sc_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_3/DSSN_Krasavietz_class2_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (dssn_ctrl_0/i_3/DSSN_Krasavietz_class2_0/\cov_Istim_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/UART_TX_0/Inst_UART_TX_CTRL/\txData_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/UART_TX_0/Inst_UART_TX_CTRL/\txData_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:14 . Memory (MB): peak = 762.438 ; gain = 552.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|dssn_ctrl   | STATE_Iin1 | 32x5          | LUT            | 
+|dssn_ctrl   | STATE_Iin  | 32x5          | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |clk_wiz_0_clk_wiz__GC0 |           1|         3|
+|2     |dssn_ctrl__GB0         |           1|      9410|
+|3     |dssn_ctrl__GB1         |           1|      9410|
+|4     |dssn_ctrl__GB2         |           1|      3382|
+|5     |dssn_ctrl__GB3         |           1|      5859|
+|6     |GPIO_demo__GC0         |           1|      1262|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:22 ; elapsed = 00:01:30 . Memory (MB): peak = 836.711 ; gain = 626.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |clk_wiz_0_clk_wiz__GC0 |           1|         3|
+|2     |dssn_ctrl__GB0         |           1|      9410|
+|3     |dssn_ctrl__GB1         |           1|      9410|
+|4     |dssn_ctrl__GB2         |           1|      3382|
+|5     |dssn_ctrl__GB3         |           1|      5859|
+|6     |GPIO_demo__GC0         |           1|      1262|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:33 ; elapsed = 00:01:41 . Memory (MB): peak = 873.082 ; gain = 662.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin inst_clk:reset to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:34 ; elapsed = 00:01:42 . Memory (MB): peak = 873.082 ; gain = 662.836
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:34 ; elapsed = 00:01:42 . Memory (MB): peak = 873.082 ; gain = 662.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:34 ; elapsed = 00:01:43 . Memory (MB): peak = 873.082 ; gain = 662.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------+----------+
+|      |BlackBox name       |Instances |
++------+--------------------+----------+
+|1     |blk_mem_v           |         1|
+|2     |blk_mem_n           |         1|
+|3     |blk_mem_q           |         1|
+|4     |blk_mem_u           |         1|
+|5     |blk_mem_fc          |         1|
+|6     |dssn_glomeruli_fifo |         1|
+|7     |fifo_generator_ORN  |         1|
+|8     |blk_mem_gen_ORN_sc  |         1|
++------+--------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------+------+
+|      |Cell                     |Count |
++------+-------------------------+------+
+|1     |blk_mem_fc_bbox          |     1|
+|2     |blk_mem_gen_ORN_sc_bbox  |     1|
+|3     |blk_mem_n_bbox           |     1|
+|4     |blk_mem_q_bbox           |     1|
+|5     |blk_mem_u_bbox           |     1|
+|6     |blk_mem_v_bbox           |     1|
+|7     |dssn_glomeruli_fifo_bbox |     1|
+|8     |fifo_generator_ORN_bbox  |     1|
+|9     |BUFG                     |     2|
+|10    |CARRY4                   |  1236|
+|11    |DSP48E1                  |    11|
+|12    |LUT1                     |  1225|
+|13    |LUT2                     |  1370|
+|14    |LUT3                     |  1696|
+|15    |LUT4                     |  1434|
+|16    |LUT5                     |  1437|
+|17    |LUT6                     |  1434|
+|18    |MMCME2_ADV               |     1|
+|19    |MUXF7                    |    13|
+|20    |FDRE                     |  4859|
+|21    |FDSE                     |    13|
+|22    |IBUF                     |     2|
+|23    |OBUF                     |     1|
+|24    |OBUFT                    |     5|
++------+-------------------------+------+
+
+Report Instance Areas: 
++------+-----------------------------+-----------------------+------+
+|      |Instance                     |Module                 |Cells |
++------+-----------------------------+-----------------------+------+
+|1     |top                          |                       | 14885|
+|2     |  inst_clk                   |clk_wiz_0              |     4|
+|3     |    inst                     |clk_wiz_0_clk_wiz      |     4|
+|4     |  dssn_ctrl_0                |dssn_ctrl              | 14059|
+|5     |    DSSN_NP1227_class1_0     |DSSN_NP1227_class1     |  2191|
+|6     |    DSSN_PN_0                |DSSN_PN                |  1006|
+|7     |    DSSN_CREPINE_0           |DSSN_CREPINE           |   776|
+|8     |    DSSN_NP2426_class1_0     |DSSN_NP2426_class1     |  2292|
+|9     |    DSSN_Krasavietz_class1_0 |DSSN_Krasavietz_class1 |  1943|
+|10    |    DSSN_MBON_0              |DSSN_MBON              |   923|
+|11    |    DSSN_APL_0               |DSSN_APL               |   503|
+|12    |    DSSN_KC_0                |DSSN_KC                |   997|
+|13    |    DSSN_Krasavietz_class2_0 |DSSN_Krasavietz_class2 |  1910|
+|14    |  clk1k_generator_0          |clk1k_generator        |    44|
+|15    |  Inst_UART_RX_CTRL          |UART_RX_CTRL           |   221|
+|16    |  UART_TX_0                  |UART_TX                |   252|
+|17    |    Inst_UART_TX_CTRL        |UART_TX_CTRL           |   135|
+|18    |  blk_mem_ORN_ctrl_0         |blk_mem_ORN_ctrl       |   298|
++------+-----------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:34 ; elapsed = 00:01:43 . Memory (MB): peak = 873.082 ; gain = 662.836
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2188 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:10 ; elapsed = 00:01:22 . Memory (MB): peak = 873.082 ; gain = 268.125
+Synthesis Optimization Complete : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 873.082 ; gain = 662.836
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1250 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+323 Infos, 242 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:34 ; elapsed = 00:01:38 . Memory (MB): peak = 873.082 ; gain = 585.926
+INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/PQNtest/PQNtest.runs/synth_1/GPIO_demo.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 873.082 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 20 14:09:40 2023...
