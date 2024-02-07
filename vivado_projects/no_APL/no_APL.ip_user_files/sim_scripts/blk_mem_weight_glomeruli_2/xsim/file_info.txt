@@ -1,2 +1,0 @@
-blk_mem_weight_glomeruli_2.v,verilog,xil_defaultlib,../../../../DrosophilaOlfactorySystem20230324.srcs/sources_1/ip/blk_mem_weight_glomeruli_2/sim/blk_mem_weight_glomeruli_2.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v

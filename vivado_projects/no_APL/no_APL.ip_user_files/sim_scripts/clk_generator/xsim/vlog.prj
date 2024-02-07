@@ -1,6 +1,0 @@
-verilog xil_defaultlib "../../../../DrosophilaOlfactorySystem20230324.srcs/sources_1/ip/clk_generator/clk_generator_clk_wiz.v" --include "../../../ipstatic"
-verilog xil_defaultlib "../../../../DrosophilaOlfactorySystem20230324.srcs/sources_1/ip/clk_generator/clk_generator.v" --include "../../../ipstatic"
-
-verilog xil_defaultlib "glbl.v"
-
-nosort
