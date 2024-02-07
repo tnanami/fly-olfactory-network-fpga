@@ -495,19 +495,19 @@ BEGIN
 	BEGIN
 		IF (rising_edge(clk)) THEN
   		    IF (addra < addra_LN3_MAX) THEN
-	            Istim <= ("" & LNPN_I_exci_doutb(17 DOWNTO 0)&"")+("000" & LNPN_I_exci_doutb(17 DOWNTO 3)&"") - (""&LNPN_I_inhi_doutb(17 DOWNTO 0)&"");
+	            Istim <= ("" & LNPN_I_exci_doutb(17 DOWNTO 0)&"")+("0" & LNPN_I_exci_doutb(17 DOWNTO 1)&"") - (""&LNPN_I_inhi_doutb(17 DOWNTO 0)&"");
 		    ELSIF (addra < addra_PN_MAX) THEN
-                Istim <= ("" & LNPN_I_exci_doutb(17 DOWNTO 0)&"") - ("00"&LNPN_I_inhi_doutb(17 DOWNTO 2)&"") -("000000"&LNPN_I_inhi_doutb(17 DOWNTO 6)&"");
+                Istim <= ("" & LNPN_I_exci_doutb(17 DOWNTO 0)&"") - ("00"&LNPN_I_inhi_doutb(17 DOWNTO 2)&"") -("00000"&LNPN_I_inhi_doutb(17 DOWNTO 5)&"")-("000000"&LNPN_I_inhi_doutb(17 DOWNTO 6)&"");
 		    ELSIF (addra < addra_KC_MAX) THEN
 			    Istim <= ("" & KC_I_doutb(17 DOWNTO 0)&"")+ ("00000" & KC_I_doutb(17 DOWNTO 5)&"") - ("000000"&APL_sc(17 DOWNTO 6));
 			ELSIF (addra < addra_APL_MAX) THEN
-				Istim <= ("0000" & APL_I0(17 DOWNTO 4) & "");
+				Istim <= ("0000" & APL_I0(17 DOWNTO 4) & "") + ("0000" & APL_I1(17 DOWNTO 4) & "");
 			ELSIF (addra < addra_MBON0_MAX) THEN
                 Istim <= ("00" & MBON0_I(17 DOWNTO 2)&"")+("0000" & MBON0_I(17 DOWNTO 4)&"") - (""&APL_sc(17 DOWNTO 0)&"");
             ELSIF (addra < addra_MBON1_MAX) THEN
 	            Istim <= ("0" & MBON1_I(17 DOWNTO 1)&"")+("0000" & MBON1_I(17 DOWNTO 4)&"")  - (""&APL_sc(17 DOWNTO 0)&"");
             ELSE
-				Istim <= ("00"&MBON0_sc(17 downto 2)&"")-("00000"&MBON0_sc(17 downto 5)&"")-("00"&MBON1_sc(17 downto 2)&"")+("00000"&MBON1_sc(17 downto 5)&"");
+				Istim <= ("00"&MBON0_sc(17 downto 2)&"")-("00000"&MBON0_sc(17 downto 5)&"")-("00"&MBON1_sc(17 downto 2)&"")+("0000"&MBON1_sc(17 downto 4)&"");
             END IF;
 			mem_v_addra <= addra;
 			mem_n_addra <= addra;
@@ -837,7 +837,7 @@ BEGIN
 							    TXD_DATA2 <= LN2_s_sum;
 							ELSIF(addra=addra_LN3_MAX-1)THEN
 							    TXD_DATA3 <= LN3_s_sum;
-							ELSIF(addra=addra_PN_MAX-11)THEN
+							ELSIF(addra=addra_PN_MAX-1)THEN
 							    TXD_DATA4 <= PN_s_sum;
 							    TXD_DATA11 <= PN_u_sum;
 							ELSIF(addra=addra_KC_MAX-1)THEN

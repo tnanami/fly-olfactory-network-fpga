@@ -1,0 +1,25 @@
+"","Class","Name","InChIKey","CID","CAS","model.response"
+"1",NA,"sfr","SFR","SFR","SFR",0
+"2","other","water","XLYOFNOQVPJJNP-UHFFFAOYSA-N","962","7732-18-5",-0.013
+"3","amine","ammonium hydroxide","VHUUQVKOLVNVRT-UHFFFAOYSA-N","14923","1336-21-6",0.005
+"4","amine","putrescine","KIDHWZJUCRJVML-UHFFFAOYSA-N","1045","110-60-1",0
+"5","amine","cadaverine","VHRGRCVQAFMJIZ-UHFFFAOYSA-N","273","462-94-2",0.002
+"10","amine","dimethylamine","ROSDSFDQCJNGOL-UHFFFAOYSA-N","674","124-40-3",-0.004
+"17","acid","acetic acid","QTBSBXVTEAMEQO-UHFFFAOYSA-N","176","64-19-7",0.056
+"18","acid","propanoic acid","XBDQKXXYIPTUBI-UHFFFAOYSA-N","1032","79-09-4",-0.003
+"19","acid","butyric acid","FERIUCNNQQJTOY-UHFFFAOYSA-N","264","107-92-6",0.02
+"71","aldehyde","butanal","ZTQSAGDEMFDKMZ-UHFFFAOYSA-N","261","123-72-8",0.002
+"88","ketone","2,3-butanedione","QSJXEFYPDANLFS-UHFFFAOYSA-N","650","431-03-8",-0.002
+"97","arom","phenethyl alcohol","WRMNZCZEMHIOCP-UHFFFAOYSA-N","6054","60-12-8",-0.001
+"104","arom","phenylacetaldehyde","DTUQWGWMVIHBKE-UHFFFAOYSA-N","998","122-78-1",0.02
+"150","alcohol","2,3-butanediol","OWBTYPJTUOEWEK-UHFFFAOYSA-N","262","513-85-9",-0.014
+"164","ester","ethyl acetate","XEKOWRVHYACXOJ-UHFFFAOYSA-N","8857","141-78-6",-0.018
+"167","ester","pentyl acetate","PGMYKACGEOXYJE-UHFFFAOYSA-N","12348","628-63-7",0.002
+"221","other","oil","solvent","solvent","solvent",-0.027
+"227","N ring","pyrrolidine","RWRDLPDLKQPQOW-UHFFFAOYSA-N","31268","123-75-1",0.973
+"241",NA,"2-phenylethylamine","BHHGXPLMPWCGHP-UHFFFAOYSA-N","1001","64-04-0",0.016
+"248",NA,"pyridine","JUJWROOIHBZHMG-UHFFFAOYSA-N","1049","152758-95-7",-0.014
+"249",NA,"2-oxovaleric acid","KDVFRMMRZOCFLS-UHFFFAOYSA-N","74563","1821-02-9",0.004
+"262",NA,"ethyl amine","QUSNBJAOOMFDIB-UHFFFAOYSA-N","6341","85404-16-6",0.064
+"266",NA,"phenylacetic acid","WLJVXDMOQOGPHL-UHFFFAOYSA-N","999","103-82-2",0.012
+"275",NA,"spermidine","ATHGHQPFGPMSJY-UHFFFAOYSA-N","1102","124-20-9",0.025

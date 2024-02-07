@@ -1,0 +1,53 @@
+"","Class","Name","InChIKey","CID","CAS","model.response"
+"1",NA,"sfr","SFR","SFR","SFR",0
+"6","amine","ammonia","QGZKDVFQNNGYKY-UHFFFAOYSA-N","222","7664-41-7",0.03
+"17","acid","acetic acid","QTBSBXVTEAMEQO-UHFFFAOYSA-N","176","64-19-7",0.001
+"18","acid","propanoic acid","XBDQKXXYIPTUBI-UHFFFAOYSA-N","1032","79-09-4",0.017
+"39","terpene","limonene","XMGQYMWWDOXHJM-UHFFFAOYSA-N","22311","138-86-3",0.009
+"44","terpene","geranyl acetate","HIGQPQRQIQDZMP-DHZHZOJOSA-N","1549026","105-87-3",0.025
+"46","terpene","geraniol","GLZPCOQZEFWAFX-JXMROGBWSA-N","637566","106-24-1",0.097
+"52","terpene","(S)-(+)-carvone","ULDHMXUKGWMISQ-VIFPVBQESA-N","16724","2244-16-8",0.069
+"56","terpene","(S)-(-)-citronellal","NEHNMFOYXAPHSD-JTQLQIEISA-N","443157","5949-05-3",0.097
+"57","terpene","(1R)-(-)-fenchone","LHXDLQBQYFFVNW-OIBJUYFYSA-N","14525","7787-20-4",0.009
+"74","aldehyde","E2-hexenal","MBDOYVRWFFCFHM-SNAWJCMRSA-N","5281168","6728-26-3",0.017
+"77","aldehyde","octanal","NUJGJRNETVAIRJ-UHFFFAOYSA-N","454","124-13-0",0.001
+"83","ketone","acetone","CSCPPACGZOOCGX-UHFFFAOYSA-N","180","67-64-1",0.151
+"86","ketone","2-heptanone","CATSNJVOTSVZJV-UHFFFAOYSA-N","8051","110-43-0",0.017
+"88","ketone","2,3-butanedione","QSJXEFYPDANLFS-UHFFFAOYSA-N","650","431-03-8",-0.01
+"91","ketone","2-hexanone","QQZOPKMRPOGIEB-UHFFFAOYSA-N","11583","591-78-6",0.076
+"93","ketone","cyclohexanone","JHIVVAPYMSGYDF-UHFFFAOYSA-N","7967","108-94-1",0.178
+"99","arom","methyl salicylate","OSWPMRLSEDHDFF-UHFFFAOYSA-N","4133","119-36-8",0.023
+"103","arom","benzaldehyde","HUMNYLRZRPPJDN-UHFFFAOYSA-N","240","100-52-7",0.083
+"105","arom","acetophenone","KWOLFJPFCHCOCG-UHFFFAOYSA-N","7410","98-86-2",0.083
+"107","arom","2-methylphenol","QWVGKYWNOKOFNN-UHFFFAOYSA-N","335","95-48-7",0.204
+"109","arom","eugenol","RRAFCDWBNXTKKO-UHFFFAOYSA-N","3314","97-53-0",0.04
+"115","arom","4-methoxybenzene","RDOXTESZEPMUJZ-UHFFFAOYSA-N","7519","100-66-3",0.083
+"116","arom","4-allyl-1,2-dimethoxybenzene","ZYEMGPIYFIJGTP-UHFFFAOYSA-N","7127","93-15-2",0.001
+"120","arom","4-methylphenol","IWDCLRJOBJJRNH-UHFFFAOYSA-N","2879","106-44-5",0.062
+"132","alcohol","methanol","OKKJLVBELUTLKV-UHFFFAOYSA-N","887","67-56-1",-0.012
+"133","alcohol","ethanol","LFQSCWFLJHTTHZ-UHFFFAOYSA-N","702","64-17-5",-0.012
+"135","alcohol","1-butanol","LRHPLDYGYMQRHN-UHFFFAOYSA-N","263","71-36-3",0.069
+"137","alcohol","1-hexanol","ZSIAUFGUXNUGDI-UHFFFAOYSA-N","8103","111-27-3",-0.067
+"138","alcohol","1-octanol","KBPLFHHGFOOTCA-UHFFFAOYSA-N","957","111-87-5",0.001
+"144","alcohol","1-octen-3-ol","VSMOENVRRABVKN-UHFFFAOYSA-N","18827","3391-86-4",0.007
+"150","alcohol","2,3-butanediol","OWBTYPJTUOEWEK-UHFFFAOYSA-N","262","513-85-9",-0.141
+"154","alcohol","1-heptanol","BBMCTIGTTCKYKF-UHFFFAOYSA-N","8129","111-70-6",-0.044
+"155","alcohol","3-octanol","NMRPBPVERJPACX-UHFFFAOYSA-N","11527","589-98-0",-0.012
+"156","alcohol","1-nonanol","ZWRUINPWMLAQRD-UHFFFAOYSA-N","8914","143-08-8",0.001
+"164","ester","ethyl acetate","XEKOWRVHYACXOJ-UHFFFAOYSA-N","8857","141-78-6",0.038
+"165","ester","propyl acetate","YKYONYBAUNKHLG-UHFFFAOYSA-N","7997","109-60-4",0.178
+"167","ester","pentyl acetate","PGMYKACGEOXYJE-UHFFFAOYSA-N","12348","628-63-7",0.134
+"170","ester","isopentyl acetate","MLFHJEHSLIIPHL-UHFFFAOYSA-N","31276","123-92-2",0.017
+"173","ester","ethyl butyrate","OBNCKNCVKJNDBV-UHFFFAOYSA-N","7762","105-54-4",0.036
+"187","ester","octyl acetate","YLYBTZIQSIBWLI-UHFFFAOYSA-N","8164","112-14-1",0.04
+"192","N ring","indole","SIKJAQJRHWYJAI-UHFFFAOYSA-N","798","120-72-9",0.184
+"201","ester","ethyl pentanoate","ICMAFTSLXCXHRK-UHFFFAOYSA-N","10882","539-82-2",-0.007
+"218","O ring","gamma-valerolactone","GAEKPEKOJKCEMS-UHFFFAOYSA-N","7921","108-29-2",0.009
+"221","other","oil","solvent","solvent","solvent",0.002
+"225","other","carbon dioxide","CURLTUGMZLYLDI-UHFFFAOYSA-N","280","124-38-9",0.859
+"234","other","hexane","VLKZOEOYAKHREP-UHFFFAOYSA-N","8058","110-54-3",0.145
+"235","O ring","thymol","MGSRCZKZVOBKFT-UHFFFAOYSA-N","6989","89-83-8",0.145
+"236","O ring","benzophenone","RWCCWEUUXYIKHB-UHFFFAOYSA-N","3102","119-61-9",0.097
+"237","alcohol","isopropyl alcohol","KFZMGEQAYNKOFK-UHFFFAOYSA-N","3776","67-63-0",0.062
+"238","other","methional","CLUWOWRTHNNBBU-UHFFFAOYSA-N","18635","3268-49-3",0.04
+"239","O ring","menthol","NOOLISFMXDJSKH-KXUCPTDWSA-N","16666","89-78-1",0.025

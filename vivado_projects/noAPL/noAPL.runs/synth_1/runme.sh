@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/synth_1'
+HD_PWD='D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

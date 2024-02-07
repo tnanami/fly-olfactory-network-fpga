@@ -183,8 +183,8 @@ architecture Behavioral of PQN_Krasavietz_class2 is
     SIGNAL cos_s_vL : std_logic_vector(17 downto 0);
     SIGNAL cos_s_vL_0 : std_logic_vector(27 downto 0);
     SIGNAL cos_s_vL_1 : std_logic_vector(27 downto 0);    
-    SIGNAL cov_vS : std_logic_vector(17 downto 0):="000000000100101010";-- 0.353515625
-    SIGNAL cov_vL : std_logic_vector(17 downto 0):="000000000100101010";-- 0.353515625
+    SIGNAL cov_vS : std_logic_vector(17 downto 0):="000000000101101010";-- 0.353515625
+    SIGNAL cov_vL : std_logic_vector(17 downto 0):="000000000101101010";-- 0.353515625  
     SIGNAL con_vS : std_logic_vector(17 downto 0):="000000011000100110";-- 1.537109375
     SIGNAL con_vL : std_logic_vector(17 downto 0):="000000111000000111";-- 3.5068359375
     SIGNAL coq_vS : std_logic_vector(17 downto 0):="111111111111111010";-- -0.005859375

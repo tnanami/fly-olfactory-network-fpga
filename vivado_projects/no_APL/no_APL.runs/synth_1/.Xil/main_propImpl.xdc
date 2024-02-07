@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/constrs_1/new/cmoda7.xdc rfile:../../../no_APL.srcs/constrs_1/new/cmoda7.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN L17 IOSTANDARD LVCMOS33} [get_ports CLK]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN J18 IOSTANDARD LVCMOS33} [get_ports UART_TXD]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN J17 IOSTANDARD LVCMOS33} [get_ports UART_RXD]

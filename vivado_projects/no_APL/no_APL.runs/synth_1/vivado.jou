@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Jan 06 13:48:56 2024
+# Process ID: 29724
+# Current directory: D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/main.vds
+# Journal file: D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

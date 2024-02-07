@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date             : Fri Sep 01 20:01:41 2023
+| Date             : Tue Jan 16 10:44:22 2024
 | Host             : DESKTOP-GD656IR running 64-bit major release  (build 9200)
 | Command          : report_power -file main_power_routed.rpt -pb main_power_summary_routed.pb -rpx main_power_routed.rpx
 | Design           : main
@@ -49,18 +49,18 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.027 |        5 |       --- |             --- |
-| Slice Logic             |     0.042 |    21185 |       --- |             --- |
-|   LUT as Logic          |     0.037 |     9538 |     20800 |           45.86 |
-|   CARRY4                |     0.004 |     1647 |      8150 |           20.21 |
-|   Register              |    <0.001 |     7606 |     41600 |           18.28 |
-|   F7/F8 Muxes           |    <0.001 |       43 |     32600 |            0.13 |
-|   Others                |     0.000 |      268 |       --- |             --- |
+| Clocks                  |     0.026 |        5 |       --- |             --- |
+| Slice Logic             |     0.041 |    21251 |       --- |             --- |
+|   LUT as Logic          |     0.037 |     9579 |     20800 |           46.05 |
+|   CARRY4                |     0.004 |     1651 |      8150 |           20.26 |
+|   Register              |    <0.001 |     7620 |     41600 |           18.32 |
+|   F7/F8 Muxes           |    <0.001 |       44 |     32600 |            0.13 |
+|   Others                |     0.000 |      269 |       --- |             --- |
 |   LUT as Shift Register |     0.000 |        2 |      9600 |            0.02 |
-| Signals                 |     0.042 |    15693 |       --- |             --- |
+| Signals                 |     0.044 |    15764 |       --- |             --- |
 | Block RAM               |     0.059 |     47.5 |        50 |           95.00 |
 | MMCM                    |     0.104 |        1 |         5 |           20.00 |
-| DSPs                    |     0.010 |       10 |        90 |           11.11 |
+| DSPs                    |     0.009 |       10 |        90 |           11.11 |
 | I/O                     |    <0.001 |        3 |       106 |            2.83 |
 | Static Power            |     0.075 |          |           |                 |
 | Total                   |     0.358 |          |           |                 |
@@ -291,13 +291,13 @@ Table of Contents
 |   pqn_ctrl_0                                             |     0.117 |
 |     PQN_APL_0                                            |     0.003 |
 |     PQN_KC_0                                             |     0.006 |
-|     PQN_Krasavietz_class1_0                              |     0.016 |
+|     PQN_Krasavietz_class1_0                              |     0.017 |
 |     PQN_Krasavietz_class2_0                              |     0.016 |
 |     PQN_MBON_0                                           |     0.005 |
-|     PQN_NP1227_class1_0                                  |     0.019 |
+|     PQN_NP1227_class1_0                                  |     0.020 |
 |     PQN_NP2426_class1_0                                  |     0.021 |
 |     PQN_ON_0                                             |     0.004 |
-|     PQN_PN_0                                             |     0.008 |
+|     PQN_PN_0                                             |     0.007 |
 |     blk_mem_fc_0                                         |     0.002 |
 |       U0                                                 |     0.002 |
 |         inst_blk_mem_gen                                 |     0.002 |

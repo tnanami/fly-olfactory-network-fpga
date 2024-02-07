@@ -2,96 +2,96 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Fri Sep 01 19:57:25 2023
-# Process ID: 10292
-# Current directory: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2
+# Start of session at: Tue Jan 16 10:40:04 2024
+# Process ID: 10408
+# Current directory: D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2
 # Command line: vivado.exe -log main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
-# Log file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main.vdi
-# Journal file: D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2\vivado.jou
+# Log file: D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main.vdi
+# Journal file: D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2\vivado.jou
 #-----------------------------------------------------------
 source main.tcl -notrace
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_KC_I/blk_mem_KC_I.dcp' for cell 'blk_mem_KC_I_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_KC_sc/blk_mem_KC_sc.dcp' for cell 'blk_mem_KC_sc_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.dcp' for cell 'blk_mem_KC_sr_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_LNPN_I_exci/blk_mem_LNPN_I_exci.dcp' for cell 'blk_mem_LNPN_I_exci_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_LNPN_I_inhi/blk_mem_LNPN_I_inhi.dcp' for cell 'blk_mem_LNPN_I_inhi_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_LNPN_sc/blk_mem_LNPN_sc.dcp' for cell 'blk_mem_LNPN_sc_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_ORN_sc/blk_mem_ORN_sc.dcp' for cell 'blk_mem_ORN_sc_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_PN_sc/blk_mem_PN_sc.dcp' for cell 'blk_mem_PN_sc_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_KC_APLMBONa3/blk_mem_weight_KC_APLMBONa3.dcp' for cell 'blk_mem_weight_KC_APLMBONa3_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_KC_MBONa1/blk_mem_weight_KC_MBONa1.dcp' for cell 'blk_mem_weight_KC_MBONa1_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator.dcp' for cell 'clk_generator_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_txd/fifo_txd.dcp' for cell 'fifo_txd_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_rxd/fifo_rxd.dcp' for cell 'fifo_rxd_ctrl_0/fifo_rxd_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_fc/blk_mem_fc.dcp' for cell 'pqn_ctrl_0/blk_mem_fc_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_n/blk_mem_n.dcp' for cell 'pqn_ctrl_0/blk_mem_n_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_q/blk_mem_q.dcp' for cell 'pqn_ctrl_0/blk_mem_q_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_u/blk_mem_u.dcp' for cell 'pqn_ctrl_0/blk_mem_u_0'
-INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_v/blk_mem_v.dcp' for cell 'pqn_ctrl_0/blk_mem_v_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_PNKC_0/blk_mem_weight_PNKC_0.dcp' for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_0_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_PNKC_1/blk_mem_weight_PNKC_1.dcp' for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_1_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_PNKC_2/blk_mem_weight_PNKC_2.dcp' for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_2_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_0/blk_mem_weight_glomeruli_0.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_0_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_1/blk_mem_weight_glomeruli_1.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_1_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_2/blk_mem_weight_glomeruli_2.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_2_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_3/blk_mem_weight_glomeruli_3.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_3_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_4/blk_mem_weight_glomeruli_4.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_4_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_5/blk_mem_weight_glomeruli_5.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_5_0'
-INFO: [Project 1-454] Reading design checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_6/blk_mem_weight_glomeruli_6.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_6_0'
-INFO: [Netlist 29-17] Analyzing 1659 Unisim elements for replacement
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_KC_I/blk_mem_KC_I.dcp' for cell 'blk_mem_KC_I_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_KC_sc/blk_mem_KC_sc.dcp' for cell 'blk_mem_KC_sc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.dcp' for cell 'blk_mem_KC_sr_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_LNPN_I_exci/blk_mem_LNPN_I_exci.dcp' for cell 'blk_mem_LNPN_I_exci_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_LNPN_I_inhi/blk_mem_LNPN_I_inhi.dcp' for cell 'blk_mem_LNPN_I_inhi_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_LNPN_sc/blk_mem_LNPN_sc.dcp' for cell 'blk_mem_LNPN_sc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_ORN_sc/blk_mem_ORN_sc.dcp' for cell 'blk_mem_ORN_sc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_PN_sc/blk_mem_PN_sc.dcp' for cell 'blk_mem_PN_sc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_KC_APLMBONa3/blk_mem_weight_KC_APLMBONa3.dcp' for cell 'blk_mem_weight_KC_APLMBONa3_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_KC_MBONa1/blk_mem_weight_KC_MBONa1.dcp' for cell 'blk_mem_weight_KC_MBONa1_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator.dcp' for cell 'clk_generator_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_txd/fifo_txd.dcp' for cell 'fifo_txd_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_rxd/fifo_rxd.dcp' for cell 'fifo_rxd_ctrl_0/fifo_rxd_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_fc/blk_mem_fc.dcp' for cell 'pqn_ctrl_0/blk_mem_fc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_n/blk_mem_n.dcp' for cell 'pqn_ctrl_0/blk_mem_n_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_q/blk_mem_q.dcp' for cell 'pqn_ctrl_0/blk_mem_q_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_u/blk_mem_u.dcp' for cell 'pqn_ctrl_0/blk_mem_u_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_v/blk_mem_v.dcp' for cell 'pqn_ctrl_0/blk_mem_v_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_PNKC_0/blk_mem_weight_PNKC_0.dcp' for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_0_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_PNKC_1/blk_mem_weight_PNKC_1.dcp' for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_1_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_PNKC_2/blk_mem_weight_PNKC_2.dcp' for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_2_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_0/blk_mem_weight_glomeruli_0.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_0_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_1/blk_mem_weight_glomeruli_1.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_1_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_2/blk_mem_weight_glomeruli_2.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_2_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_3/blk_mem_weight_glomeruli_3.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_3_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_4/blk_mem_weight_glomeruli_4.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_4_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_5/blk_mem_weight_glomeruli_5.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_5_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_6/blk_mem_weight_glomeruli_6.dcp' for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_6_0'
+INFO: [Netlist 29-17] Analyzing 1663 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2016.4
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator_board.xdc] for cell 'clk_generator_0/inst'
-Finished Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator_board.xdc] for cell 'clk_generator_0/inst'
-Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator.xdc] for cell 'clk_generator_0/inst'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator.xdc:57]
-INFO: [Timing 38-2] Deriving generated clocks [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator.xdc:57]
-get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1085.734 ; gain = 496.727
-WARNING: [Vivado 12-2489] -input_jitter contains time 0.833330 which will be rounded to 0.833 to ensure it is an integer multiple of 1 picosecond [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator.xdc:57]
-Finished Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator.xdc] for cell 'clk_generator_0/inst'
-Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_txd/fifo_txd/fifo_txd.xdc] for cell 'fifo_txd_0/U0'
-Finished Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_txd/fifo_txd/fifo_txd.xdc] for cell 'fifo_txd_0/U0'
-Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_rxd/fifo_rxd/fifo_rxd.xdc] for cell 'fifo_rxd_ctrl_0/fifo_rxd_0/U0'
-Finished Parsing XDC File [d:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_rxd/fifo_rxd/fifo_rxd.xdc] for cell 'fifo_rxd_ctrl_0/fifo_rxd_0/U0'
-Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/constrs_1/new/cmoda7.xdc]
-Finished Parsing XDC File [D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/constrs_1/new/cmoda7.xdc]
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_q/blk_mem_q.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/clk_generator/clk_generator.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_v/blk_mem_v.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_n/blk_mem_n.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_u/blk_mem_u.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_fc/blk_mem_fc.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_0/blk_mem_weight_glomeruli_0.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_1/blk_mem_weight_glomeruli_1.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_2/blk_mem_weight_glomeruli_2.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_PNKC_0/blk_mem_weight_PNKC_0.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_LNPN_sc/blk_mem_LNPN_sc.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_KC_sc/blk_mem_KC_sc.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_KC_APLMBONa3/blk_mem_weight_KC_APLMBONa3.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_KC_MBONa1/blk_mem_weight_KC_MBONa1.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_5/blk_mem_weight_glomeruli_5.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_LNPN_I_exci/blk_mem_LNPN_I_exci.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_ORN_sc/blk_mem_ORN_sc.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_6/blk_mem_weight_glomeruli_6.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_LNPN_I_inhi/blk_mem_LNPN_I_inhi.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_3/blk_mem_weight_glomeruli_3.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_PN_sc/blk_mem_PN_sc.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_KC_I/blk_mem_KC_I.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_glomeruli_4/blk_mem_weight_glomeruli_4.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_txd/fifo_txd.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_PNKC_1/blk_mem_weight_PNKC_1.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/fifo_rxd/fifo_rxd.dcp'
-INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/sources_1/ip/blk_mem_weight_PNKC_2/blk_mem_weight_PNKC_2.dcp'
+Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator_board.xdc] for cell 'clk_generator_0/inst'
+Finished Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator_board.xdc] for cell 'clk_generator_0/inst'
+Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator.xdc] for cell 'clk_generator_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator.xdc:57]
+get_clocks: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1088.539 ; gain = 496.801
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.833330 which will be rounded to 0.833 to ensure it is an integer multiple of 1 picosecond [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator.xdc:57]
+Finished Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator.xdc] for cell 'clk_generator_0/inst'
+Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_txd/fifo_txd/fifo_txd.xdc] for cell 'fifo_txd_0/U0'
+Finished Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_txd/fifo_txd/fifo_txd.xdc] for cell 'fifo_txd_0/U0'
+Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_rxd/fifo_rxd/fifo_rxd.xdc] for cell 'fifo_rxd_ctrl_0/fifo_rxd_0/U0'
+Finished Parsing XDC File [d:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_rxd/fifo_rxd/fifo_rxd.xdc] for cell 'fifo_rxd_ctrl_0/fifo_rxd_0/U0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/constrs_1/new/cmoda7.xdc]
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/constrs_1/new/cmoda7.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_q/blk_mem_q.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/clk_generator/clk_generator.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_v/blk_mem_v.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_n/blk_mem_n.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_u/blk_mem_u.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_fc/blk_mem_fc.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_0/blk_mem_weight_glomeruli_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_1/blk_mem_weight_glomeruli_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_2/blk_mem_weight_glomeruli_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_PNKC_0/blk_mem_weight_PNKC_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_LNPN_sc/blk_mem_LNPN_sc.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_KC_sc/blk_mem_KC_sc.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_KC_sr/blk_mem_KC_sr.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_KC_APLMBONa3/blk_mem_weight_KC_APLMBONa3.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_KC_MBONa1/blk_mem_weight_KC_MBONa1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_5/blk_mem_weight_glomeruli_5.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_LNPN_I_exci/blk_mem_LNPN_I_exci.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_ORN_sc/blk_mem_ORN_sc.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_6/blk_mem_weight_glomeruli_6.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_LNPN_I_inhi/blk_mem_LNPN_I_inhi.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_3/blk_mem_weight_glomeruli_3.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_PN_sc/blk_mem_PN_sc.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_KC_I/blk_mem_KC_I.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_glomeruli_4/blk_mem_weight_glomeruli_4.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_txd/fifo_txd.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_PNKC_1/blk_mem_weight_PNKC_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/fifo_rxd/fifo_rxd.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.srcs/sources_1/ip/blk_mem_weight_PNKC_2/blk_mem_weight_PNKC_2.dcp'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-link_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1085.746 ; gain = 815.055
+link_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1088.598 ; gain = 816.207
 INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
@@ -103,55 +103,55 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1085.746 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1088.598 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
-Implement Debug Cores | Checksum: 1fa5c21e2
+Implement Debug Cores | Checksum: 214dc7304
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 15 inverter(s) to 30 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 29f11ede5
+Phase 1 Retarget | Checksum: 23a5249fa
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1085.746 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1088.598 ; gain = 0.000
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-10] Eliminated 1 cells.
-Phase 2 Constant propagation | Checksum: 2501f53ce
+Phase 2 Constant propagation | Checksum: 29791c591
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1085.746 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1088.598 ; gain = 0.000
 
 Phase 3 Sweep
-INFO: [Opt 31-12] Eliminated 4599 unconnected nets.
+INFO: [Opt 31-12] Eliminated 4609 unconnected nets.
 INFO: [Opt 31-11] Eliminated 85 unconnected cells.
-Phase 3 Sweep | Checksum: 232ca823e
+Phase 3 Sweep | Checksum: 207453e93
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1085.746 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1088.598 ; gain = 0.000
 
 Phase 4 BUFG optimization
 INFO: [Opt 31-12] Eliminated 0 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
-Phase 4 BUFG optimization | Checksum: 232ca823e
+Phase 4 BUFG optimization | Checksum: 207453e93
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.746 ; gain = 0.000
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1088.598 ; gain = 0.000
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1085.746 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 232ca823e
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 1088.598 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 207453e93
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.746 ; gain = 0.000
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1088.598 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Running Vector-less Activity Propagation...
-
-Finished Running Vector-less Activity Propagation
 INFO: [Pwropt 34-9] Applying IDT optimizations ...
 INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+Finished Running Vector-less Activity Propagation
 
 
 Starting PowerOpt Patch Enables Task
@@ -160,49 +160,49 @@ INFO: [Pwropt 34-201] Structural ODC has moved 4 WE to EN ports
 Number of BRAM Ports augmented: 22 newly gated: 68 Total Ports: 120
 Number of Flops added for Enable Generation: 15
 
-Ending PowerOpt Patch Enables Task | Checksum: 1e62f7e75
+Ending PowerOpt Patch Enables Task | Checksum: 1384fd248
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.349 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 1e62f7e75
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.307 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1384fd248
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.727 ; gain = 494.980
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.723 ; gain = 492.125
 INFO: [Common 17-83] Releasing license: Implementation
 86 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:26 . Memory (MB): peak = 1580.727 ; gain = 494.980
+opt_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1580.723 ; gain = 492.125
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main_opt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main_opt.dcp' has been generated.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main_drc_opted.rpt.
 Command: power_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Begin power optimizations | Checksum: 220b7a4d0
+Begin power optimizations | Checksum: 1c82b867e
 INFO: [Pwropt 34-50] Optimizing power for module main ...
 INFO: [Pwropt 34-207] Design is in partially-placed state. Running in partially-placed mode.
-PSMgr Creation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.482 . Memory (MB): peak = 1580.727 ; gain = 0.000
+PSMgr Creation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.436 . Memory (MB): peak = 1580.723 ; gain = 0.000
 Found 130 new always-off flops by back propagation
-Pre-processing: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Pre-processing: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Pwropt 34-9] Applying IDT optimizations ...
 Running Vector-less Activity Propagation...
-IDT: Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 1580.727 ; gain = 0.000
+IDT: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Pwropt 34-10] Applying ODC optimizations ...
 
 Finished Running Vector-less Activity Propagation
 INFO: [Pwropt 34-215] Skipped ODC enables for 896 nets in BRAM flops in bus-based analysis.
 INFO: [Pwropt 34-214] Skipped ODC enables for 0 nets in BRAM address flops in bus-based analysis.
-ODC: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Power optimization passes: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 1580.727 ; gain = 0.000
+ODC: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Power optimization passes: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 INFO: [Pwropt 34-77] Creating clock enable groups ...
 INFO: [Pwropt 34-96] Including small groups for filtering based on enable probabilities.
  Done
-Grouping enables: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Grouping enables: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 
 Starting PowerOpt Patch Enables Task
@@ -210,58 +210,58 @@ INFO: [Pwropt 34-26] Patching clock gating enable signals for design main ...
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 60 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 INFO: [Pwropt 34-100] Patcher adaptive clustering : original ram clusters 8 accepted clusters 8
-INFO: [Pwropt 34-100] Patcher adaptive clustering : original flop clusters 113 accepted clusters 113
+INFO: [Pwropt 34-100] Patcher adaptive clustering : original flop clusters 112 accepted clusters 112
 
-Number of Slice Registers augmented: 55 newly gated: 924 Total: 7598
+Number of Slice Registers augmented: 44 newly gated: 928 Total: 7612
 Number of SRLs augmented: 0  newly gated: 0 Total: 3
 Number of BRAM Ports augmented: 8 newly gated: 0 Total Ports: 120
 Number of Flops added for Enable Generation: 8
 
-Flops dropped: 512/1571 RAMS dropped: 0/8 Clusters dropped: 22/121 Enables dropped: 5
+Flops dropped: 512/1560 RAMS dropped: 0/8 Clusters dropped: 22/120 Enables dropped: 5
 Patching clock gating enables finished successfully.
-Ending PowerOpt Patch Enables Task | Checksum: 2909dcf88
+Ending PowerOpt Patch Enables Task | Checksum: 1cc9b5e7d
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Pwropt 34-30] Power optimization finished successfully.
-End power optimizations | Checksum: 2909dcf88
-Power optimization: Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.727 ; gain = 0.000
+End power optimizations | Checksum: 1cc9b5e7d
+Power optimization: Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Pwropt 34-198] Malloced memory gain at end of power optimization: 0 bytes
 
 Starting Logic Optimization Task
-Implement Debug Cores | Checksum: 25e478631
+Implement Debug Cores | Checksum: 1bbebb2d2
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 1ffec01a9
+Phase 1 Retarget | Checksum: 23a71f0f1
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.998 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 2 BUFG optimization
 INFO: [Opt 31-12] Eliminated 0 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
-Phase 2 BUFG optimization | Checksum: 1ffec01a9
+Phase 2 BUFG optimization | Checksum: 23a71f0f1
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 3 Remap
-INFO: [Opt 31-9] Eliminated 7 cells and 15 terminals.
-Phase 3 Remap | Checksum: 26f6788b6
+INFO: [Opt 31-9] Eliminated 6 cells and 13 terminals.
+Phase 3 Remap | Checksum: 1629394d4
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 26f6788b6
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1629394d4
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 112 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 power_opt_design completed successfully
-power_opt_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:27 . Memory (MB): peak = 1580.727 ; gain = 0.000
+power_opt_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:26 . Memory (MB): peak = 1580.723 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main_pwropt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.072 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main_pwropt.dcp' has been generated.
 INFO: [Chipscope 16-241] No debug cores found in the current design.
 Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
 or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
@@ -280,79 +280,84 @@ Starting Placer Task
 INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
 
 Phase 1 Placer Initialization
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 14c675026
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 14576126d
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 1.2 Build Placer Netlist Model
-Phase 1.2 Build Placer Netlist Model | Checksum: 23cf45461
+Phase 1.2 Build Placer Netlist Model | Checksum: 23b292412
 
-Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 1.3 Constrain Clocks/Macros
-Phase 1.3 Constrain Clocks/Macros | Checksum: 23cf45461
+Phase 1.3 Constrain Clocks/Macros | Checksum: 23b292412
 
-Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 23cf45461
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 23b292412
 
-Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: 14973003c
+Phase 2 Global Placement | Checksum: a4dfe28d
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:34 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:34 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 14973003c
+Phase 3.1 Commit Multi Column Macros | Checksum: a4dfe28d
 
-Time (s): cpu = 00:00:50 ; elapsed = 00:00:34 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:34 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 18143f84a
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: c9756f28
 
-Time (s): cpu = 00:00:58 ; elapsed = 00:00:40 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:41 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 100b6d43e
+Phase 3.3 Area Swap Optimization | Checksum: f759172b
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:42 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 12b84e52b
+Phase 3.4 Pipeline Register Optimization | Checksum: f6ba0c41
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:42 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: bd243987
+Phase 3.5 Timing Path Optimizer | Checksum: e6505707
 
-Time (s): cpu = 00:01:01 ; elapsed = 00:00:42 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:43 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
-Phase 3.6 Small Shape Detail Placement
-Phase 3.6 Small Shape Detail Placement | Checksum: 149b3a28f
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: c01351f3
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:49 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:44 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
-Phase 3.7 Re-assign LUT pins
-Phase 3.7 Re-assign LUT pins | Checksum: 127d13fda
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 110777429
 
-Time (s): cpu = 00:01:09 ; elapsed = 00:00:50 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:51 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
-Phase 3.8 Pipeline Register Optimization
-Phase 3.8 Pipeline Register Optimization | Checksum: 127d13fda
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 175eb6ce0
 
-Time (s): cpu = 00:01:09 ; elapsed = 00:00:50 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 127d13fda
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:52 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
-Time (s): cpu = 00:01:09 ; elapsed = 00:00:50 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 135040888
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:52 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 135040888
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:53 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -360,47 +365,47 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-INFO: [Place 30-746] Post Placement Timing Summary WNS=0.516. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 144f4a410
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.263. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1c7af26c4
 
-Time (s): cpu = 00:01:18 ; elapsed = 00:00:56 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 144f4a410
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:58 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1c7af26c4
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:56 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:59 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 144f4a410
+Phase 4.2 Post Placement Cleanup | Checksum: 1c7af26c4
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:57 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:59 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 144f4a410
+Phase 4.3 Placer Reporting | Checksum: 1c7af26c4
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:57 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:59 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 19c66a8ea
+Phase 4.4 Final Placement Cleanup | Checksum: 21eaebe4e
 
-Time (s): cpu = 00:01:20 ; elapsed = 00:00:57 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 19c66a8ea
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:59 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 21eaebe4e
 
-Time (s): cpu = 00:01:20 ; elapsed = 00:00:57 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Ending Placer Task | Checksum: 1652da8ec
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Ending Placer Task | Checksum: 139de30d6
 
-Time (s): cpu = 00:01:20 ; elapsed = 00:00:57 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 128 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:01:25 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.727 ; gain = 0.000
+place_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:02 . Memory (MB): peak = 1580.723 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main_placed.dcp' has been generated.
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1580.727 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.208 . Memory (MB): peak = 1580.727 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1580.723 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.191 . Memory (MB): peak = 1580.723 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1580.723 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
@@ -412,120 +417,127 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 7df7ed3d ConstDB: 0 ShapeSum: e735bbaf RouteDB: 0
+Checksum: PlaceDB: 531666dc ConstDB: 0 ShapeSum: e6c7c9fa RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: f133aa5f
+Phase 1 Build RT Design | Checksum: ae4d2dd3
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: f133aa5f
+Phase 2.1 Create Timer | Checksum: ae4d2dd3
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: f133aa5f
+Phase 2.2 Fix Topology Constraints | Checksum: ae4d2dd3
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: f133aa5f
+Phase 2.3 Pre Route Cleanup | Checksum: ae4d2dd3
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1580.723 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1a942227e
+Phase 2.4 Update Timing | Checksum: 1003427a9
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:34 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.580  | TNS=0.000  | WHS=-0.355 | THS=-142.235|
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:33 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.399  | TNS=0.000  | WHS=-0.357 | THS=-137.670|
 
-Phase 2 Router Initialization | Checksum: 1e4e74bd0
+Phase 2 Router Initialization | Checksum: 1636426cc
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:36 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:36 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 15cbc81db
+Phase 3 Initial Routing | Checksum: 12d235c85
 
-Time (s): cpu = 00:00:53 ; elapsed = 00:00:39 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:39 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 2311
- Number of Nodes with overlaps = 300
- Number of Nodes with overlaps = 51
- Number of Nodes with overlaps = 15
- Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 2549
+ Number of Nodes with overlaps = 421
+ Number of Nodes with overlaps = 82
+ Number of Nodes with overlaps = 25
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
 
 Phase 4.1.1 Update Timing
-Phase 4.1.1 Update Timing | Checksum: 27f7e5d9f
+Phase 4.1.1 Update Timing | Checksum: 1c915af15
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:00:50 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.819  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:54 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.557  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 226c17885
+Phase 4.1 Global Iteration 0 | Checksum: 1a6ee5393
 
-Time (s): cpu = 00:01:13 ; elapsed = 00:00:50 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:54 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 5
  Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
 
 Phase 4.2.1 Update Timing
-Phase 4.2.1 Update Timing | Checksum: 1b0ec8bb4
+Phase 4.2.1 Update Timing | Checksum: 20650bdbc
 
-Time (s): cpu = 00:01:14 ; elapsed = 00:00:51 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.819  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:58 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.220  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.2 Global Iteration 1 | Checksum: 15a299ea9
+Phase 4.2 Global Iteration 1 | Checksum: 20650bdbc
 
-Time (s): cpu = 00:01:14 ; elapsed = 00:00:51 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Phase 4 Rip-up And Reroute | Checksum: 15a299ea9
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:58 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 20650bdbc
 
-Time (s): cpu = 00:01:14 ; elapsed = 00:00:51 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:58 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: 15a299ea9
+Phase 5.1 Delay CleanUp | Checksum: 20650bdbc
 
-Time (s): cpu = 00:01:14 ; elapsed = 00:00:52 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:58 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 15a299ea9
+Phase 5.2 Clock Skew Optimization | Checksum: 20650bdbc
 
-Time (s): cpu = 00:01:14 ; elapsed = 00:00:52 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Phase 5 Delay and Skew Optimization | Checksum: 15a299ea9
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:58 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 20650bdbc
 
-Time (s): cpu = 00:01:14 ; elapsed = 00:00:52 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:59 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 23ac6f1e8
+Phase 6.1.1 Update Timing | Checksum: 2244ee2d2
 
-Time (s): cpu = 00:01:16 ; elapsed = 00:00:53 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.898  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.227  | TNS=0.000  | WHS=0.029  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 1a1e06472
+Phase 6.1 Hold Fix Iter | Checksum: 18a282f12
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:53 . Memory (MB): peak = 1580.727 ; gain = 0.000
-Phase 6 Post Hold Fix | Checksum: 1a1e06472
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.723 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 18a282f12
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:53 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 5.05637 %
-  Global Horizontal Routing Utilization  = 6.40799 %
+  Global Vertical Routing Utilization    = 5.64363 %
+  Global Horizontal Routing Utilization  = 6.89901 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -534,51 +546,50 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 23e4680ce
+Phase 7 Route finalize | Checksum: 1e45860b9
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:53 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 23e4680ce
+Phase 8 Verifying routed nets | Checksum: 1e45860b9
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:53 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:00 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 25dc7a296
+Phase 9 Depositing Routes | Checksum: 1650b553d
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:02 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=0.898  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.227  | TNS=0.000  | WHS=0.029  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 25dc7a296
+Phase 10 Post Router Timing | Checksum: 1650b553d
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:02 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:01:20 ; elapsed = 00:00:56 . Memory (MB): peak = 1580.727 ; gain = 0.000
+Time (s): cpu = 00:01:30 ; elapsed = 00:01:03 . Memory (MB): peak = 1580.723 ; gain = 0.000
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 142 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:01:25 ; elapsed = 00:00:59 . Memory (MB): peak = 1580.727 ; gain = 0.000
+route_design: Time (s): cpu = 00:01:35 ; elapsed = 00:01:06 . Memory (MB): peak = 1580.723 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 1580.727 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 1580.723 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main_routed.dcp' has been generated.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main_drc_routed.rpt.
-report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1580.727 ; gain = 0.000
+INFO: [Coretcl 2-168] The results of DRC are in file D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main_drc_routed.rpt.
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.runs/impl_2/main_methodology_drc_routed.rpt.
-report_methodology: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1580.727 ; gain = 0.000
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/noAPL/noAPL.runs/impl_2/main_methodology_drc_routed.rpt.
+report_methodology: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1580.723 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -591,7 +602,7 @@ WARNING: [Power 33-332] Found switching activity that implies high-fanout reset 
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
 152 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1580.727 ; gain = 0.000
+report_power: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1580.723 ; gain = 0.000
 Command: write_bitstream -force -no_partial_bitfile main.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
@@ -632,6 +643,6 @@ INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK 
 INFO: [Common 17-83] Releasing license: Implementation
 159 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:36 ; elapsed = 00:00:35 . Memory (MB): peak = 1846.285 ; gain = 265.559
+write_bitstream: Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 1841.922 ; gain = 261.199
 INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file main.hwdef
-INFO: [Common 17-206] Exiting Vivado at Fri Sep 01 20:02:17 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 16 10:44:56 2024...

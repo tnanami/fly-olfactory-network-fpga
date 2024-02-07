@@ -1,0 +1,1775 @@
+
+*** Running vivado
+    with args -log main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30172 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 367.563 ; gain = 157.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:16]
+	Parameter PQN_BIT_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'clk_generator' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/clk_generator_stub.vhdl:5' bound to instance 'clk_generator_0' of component 'clk_generator' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:472]
+INFO: [Synth 8-638] synthesizing module 'clk_generator' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/clk_generator_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'triger_generator' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/triger_generator.vhd:5' bound to instance 'triger_generator_0' of component 'triger_generator' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:478]
+INFO: [Synth 8-638] synthesizing module 'triger_generator' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/triger_generator.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'triger_generator' (1#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/triger_generator.vhd:15]
+INFO: [Synth 8-3491] module 'fifo_rxd_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_rxd_ctrl.vhd:15' bound to instance 'fifo_rxd_ctrl_0' of component 'fifo_rxd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:487]
+INFO: [Synth 8-638] synthesizing module 'fifo_rxd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_rxd_ctrl.vhd:35]
+	Parameter PQN_BIT_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'uart_rxd_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_rxd_ctrl.vhd:5' bound to instance 'uart_rxd_ctrl_0' of component 'uart_rxd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_rxd_ctrl.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'uart_rxd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_rxd_ctrl.vhd:13]
+INFO: [Synth 8-226] default block is never used [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_rxd_ctrl.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'uart_rxd_ctrl' (2#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_rxd_ctrl.vhd:13]
+INFO: [Synth 8-3491] module 'fifo_rxd' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/fifo_rxd_stub.vhdl:5' bound to instance 'fifo_rxd_0' of component 'fifo_rxd' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_rxd_ctrl.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'fifo_rxd' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/fifo_rxd_stub.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'fifo_rxd_ctrl' (3#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_rxd_ctrl.vhd:35]
+INFO: [Synth 8-3491] module 'fifo_txd_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:5' bound to instance 'fifo_txd_ctrl_0' of component 'fifo_txd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:502]
+INFO: [Synth 8-638] synthesizing module 'fifo_txd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:31]
+	Parameter PQN_BIT_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'uart_txd_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_txd_ctrl.vhd:5' bound to instance 'uart_txd_ctrl_0' of component 'uart_txd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:206]
+INFO: [Synth 8-638] synthesizing module 'uart_txd_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_txd_ctrl.vhd:14]
+INFO: [Synth 8-226] default block is never used [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_txd_ctrl.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'uart_txd_ctrl' (4#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/uart_txd_ctrl.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'fifo_txd_ctrl' (5#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:31]
+INFO: [Synth 8-3491] module 'pqn_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:5' bound to instance 'pqn_ctrl_0' of component 'pqn_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:523]
+INFO: [Synth 8-638] synthesizing module 'pqn_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:58]
+	Parameter PQN_BIT_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'PQN_Krasavietz_class1' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:6' bound to instance 'PQN_Krasavietz_class1_0' of component 'PQN_Krasavietz_class1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:877]
+INFO: [Synth 8-638] synthesizing module 'PQN_Krasavietz_class1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:25]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:207]
+INFO: [Synth 8-256] done synthesizing module 'PQN_Krasavietz_class1' (6#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:25]
+INFO: [Synth 8-3491] module 'PQN_Krasavietz_class2' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:6' bound to instance 'PQN_Krasavietz_class2_0' of component 'PQN_Krasavietz_class2' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:895]
+INFO: [Synth 8-638] synthesizing module 'PQN_Krasavietz_class2' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:25]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:211]
+INFO: [Synth 8-256] done synthesizing module 'PQN_Krasavietz_class2' (7#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:25]
+INFO: [Synth 8-3491] module 'PQN_NP1227_class1' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:5' bound to instance 'PQN_NP1227_class1_0' of component 'PQN_NP1227_class1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:913]
+INFO: [Synth 8-638] synthesizing module 'PQN_NP1227_class1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:24]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:218]
+INFO: [Synth 8-256] done synthesizing module 'PQN_NP1227_class1' (8#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:24]
+INFO: [Synth 8-3491] module 'PQN_NP2426_class1' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:6' bound to instance 'PQN_NP2426_class1_0' of component 'PQN_NP2426_class1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:931]
+INFO: [Synth 8-638] synthesizing module 'PQN_NP2426_class1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:25]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:223]
+INFO: [Synth 8-256] done synthesizing module 'PQN_NP2426_class1' (9#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:25]
+INFO: [Synth 8-3491] module 'PQN_PN' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:4' bound to instance 'PQN_PN_0' of component 'PQN_PN' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:949]
+INFO: [Synth 8-638] synthesizing module 'PQN_PN' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'I36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:167]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:168]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:180]
+INFO: [Synth 8-256] done synthesizing module 'PQN_PN' (10#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:23]
+INFO: [Synth 8-3491] module 'PQN_KC' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:4' bound to instance 'PQN_KC_0' of component 'PQN_KC' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:967]
+INFO: [Synth 8-638] synthesizing module 'PQN_KC' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:162]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:174]
+INFO: [Synth 8-256] done synthesizing module 'PQN_KC' (11#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:23]
+INFO: [Synth 8-3491] module 'PQN_APL' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:4' bound to instance 'PQN_APL_0' of component 'PQN_APL' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:985]
+INFO: [Synth 8-638] synthesizing module 'PQN_APL' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:23]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:150]
+INFO: [Synth 8-4471] merging register 'con_vv_vS_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:153]
+INFO: [Synth 8-4471] merging register 'con_v_vS_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:155]
+INFO: [Synth 8-4471] merging register 'con_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:156]
+INFO: [Synth 8-4471] merging register 'coqleak_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:158]
+INFO: [Synth 8-4471] merging register 'coqI0_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:159]
+INFO: [Synth 8-4471] merging register 'coqIstim_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:160]
+INFO: [Synth 8-4471] merging register 'coqIgj1_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:162]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'PQN_APL' (12#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:23]
+INFO: [Synth 8-3491] module 'PQN_MBON' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:4' bound to instance 'PQN_MBON_0' of component 'PQN_MBON' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1003]
+INFO: [Synth 8-638] synthesizing module 'PQN_MBON' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:149]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'PQN_MBON' (13#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:23]
+INFO: [Synth 8-3491] module 'PQN_ON' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:4' bound to instance 'PQN_ON_0' of component 'PQN_ON' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1021]
+INFO: [Synth 8-638] synthesizing module 'PQN_ON' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:23]
+INFO: [Synth 8-4471] merging register 'coqIgj1_b0_reg[17:0]' into 'coqIgj0_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:180]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vv36_reg' and it is trimmed from '36' to '28' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:156]
+INFO: [Synth 8-4471] merging register 'con_vv_vL_b0_reg[17:0]' into 'cov_vv_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:172]
+INFO: [Synth 8-4471] merging register 'cov_v_vL_b0_reg[17:0]' into 'cov_v_vS_b0_reg[17:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'PQN_ON' (14#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:23]
+INFO: [Synth 8-3491] module 'blk_mem_v' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_v_stub.vhdl:5' bound to instance 'blk_mem_v_0' of component 'blk_mem_v' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1039]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_v' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_v_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_n' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_n_stub.vhdl:5' bound to instance 'blk_mem_n_0' of component 'blk_mem_n' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1047]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_n' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_n_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_q' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_q_stub.vhdl:5' bound to instance 'blk_mem_q_0' of component 'blk_mem_q' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1055]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_q' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_q_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_u' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_u_stub.vhdl:5' bound to instance 'blk_mem_u_0' of component 'blk_mem_u' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1063]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_u' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_u_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'blk_mem_fc' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_fc_stub.vhdl:5' bound to instance 'blk_mem_fc_0' of component 'blk_mem_fc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1071]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_fc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_fc_stub.vhdl:16]
+INFO: [Synth 8-4471] merging register 'mem_n_addra_reg[11:0]' into 'mem_v_addra_reg[11:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:519]
+INFO: [Synth 8-4471] merging register 'mem_q_addra_reg[11:0]' into 'mem_v_addra_reg[11:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:520]
+INFO: [Synth 8-256] done synthesizing module 'pqn_ctrl' (15#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:58]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:5' bound to instance 'sc_accumulator_glomeruli_ctrl_0' of component 'sc_accumulator_glomeruli_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:571]
+INFO: [Synth 8-638] synthesizing module 'sc_accumulator_glomeruli_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:22]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:5' bound to instance 'sc_accumulator_glomeruli_0_0' of component 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'sc_accumulator_glomeruli_0' (16#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:20]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:5' bound to instance 'sc_accumulator_glomeruli_0_1' of component 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:156]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:5' bound to instance 'sc_accumulator_glomeruli_0_2' of component 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:169]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:5' bound to instance 'sc_accumulator_glomeruli_0_3' of component 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:182]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:5' bound to instance 'sc_accumulator_glomeruli_0_4' of component 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:195]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:5' bound to instance 'sc_accumulator_glomeruli_0_5' of component 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:208]
+INFO: [Synth 8-3491] module 'sc_accumulator_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:5' bound to instance 'sc_accumulator_glomeruli_0_6' of component 'sc_accumulator_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:221]
+INFO: [Synth 8-3491] module 'blk_mem_weight_glomeruli_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_0_stub.vhdl:5' bound to instance 'blk_mem_weight_glomeruli_0_0' of component 'blk_mem_weight_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_glomeruli_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_glomeruli_1' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_1_stub.vhdl:5' bound to instance 'blk_mem_weight_glomeruli_1_0' of component 'blk_mem_weight_glomeruli_1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:242]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_glomeruli_1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_glomeruli_2' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_2_stub.vhdl:5' bound to instance 'blk_mem_weight_glomeruli_2_0' of component 'blk_mem_weight_glomeruli_2' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:248]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_glomeruli_2' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_2_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_glomeruli_3' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_3_stub.vhdl:5' bound to instance 'blk_mem_weight_glomeruli_3_0' of component 'blk_mem_weight_glomeruli_3' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:254]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_glomeruli_3' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_3_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_glomeruli_4' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_4_stub.vhdl:5' bound to instance 'blk_mem_weight_glomeruli_4_0' of component 'blk_mem_weight_glomeruli_4' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_glomeruli_4' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_4_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_glomeruli_5' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_5_stub.vhdl:5' bound to instance 'blk_mem_weight_glomeruli_5_0' of component 'blk_mem_weight_glomeruli_5' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:266]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_glomeruli_5' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_5_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_glomeruli_6' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_6_stub.vhdl:5' bound to instance 'blk_mem_weight_glomeruli_6_0' of component 'blk_mem_weight_glomeruli_6' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:272]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_glomeruli_6' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_glomeruli_6_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'sc_accumulator_glomeruli_ctrl' (17#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:22]
+INFO: [Synth 8-3491] module 'sc_accumulator_PNKC_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:4' bound to instance 'sc_accumulator_PNKC_ctrl_0' of component 'sc_accumulator_PNKC_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:586]
+INFO: [Synth 8-638] synthesizing module 'sc_accumulator_PNKC_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:16]
+INFO: [Synth 8-3491] module 'sc_accumulator_PNKC' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC.vhd:5' bound to instance 'sc_accumulator_PNKC_0' of component 'sc_accumulator_PNKC' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'sc_accumulator_PNKC' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'sc_accumulator_PNKC' (18#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC.vhd:16]
+INFO: [Synth 8-3491] module 'sc_accumulator_PNKC' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC.vhd:5' bound to instance 'sc_accumulator_PNKC_1' of component 'sc_accumulator_PNKC' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:80]
+INFO: [Synth 8-3491] module 'sc_accumulator_PNKC' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC.vhd:5' bound to instance 'sc_accumulator_PNKC_2' of component 'sc_accumulator_PNKC' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:88]
+INFO: [Synth 8-3491] module 'blk_mem_weight_PNKC_0' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_PNKC_0_stub.vhdl:5' bound to instance 'blk_mem_weight_PNKC_0_0' of component 'blk_mem_weight_PNKC_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_PNKC_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_PNKC_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_PNKC_1' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_PNKC_1_stub.vhdl:5' bound to instance 'blk_mem_weight_PNKC_1_0' of component 'blk_mem_weight_PNKC_1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_PNKC_1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_PNKC_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_PNKC_2' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_PNKC_2_stub.vhdl:5' bound to instance 'blk_mem_weight_PNKC_2_0' of component 'blk_mem_weight_PNKC_2' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_PNKC_2' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_PNKC_2_stub.vhdl:14]
+INFO: [Synth 8-226] default block is never used [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:115]
+INFO: [Synth 8-256] done synthesizing module 'sc_accumulator_PNKC_ctrl' (19#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:16]
+INFO: [Synth 8-3491] module 'sc_accumulator_KC_APLMBON_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON_ctrl.vhd:4' bound to instance 'sc_accumulator_KC_APLMBON_ctrl_0' of component 'sc_accumulator_KC_APLMBON_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:597]
+INFO: [Synth 8-638] synthesizing module 'sc_accumulator_KC_APLMBON_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON_ctrl.vhd:19]
+INFO: [Synth 8-3491] module 'sc_accumulator_KC_APLMBON' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON.vhd:5' bound to instance 'sc_accumulator_KC_APLMBON_0_0' of component 'sc_accumulator_KC_APLMBON' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON_ctrl.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'sc_accumulator_KC_APLMBON' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'sc_accumulator_KC_APLMBON' (20#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON.vhd:16]
+INFO: [Synth 8-226] default block is never used [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON_ctrl.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'sc_accumulator_KC_APLMBON_ctrl' (21#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_KC_APLMBON_ctrl.vhd:19]
+INFO: [Synth 8-3491] module 'stdp_ctrl' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/stdp_ctrl.vhd:4' bound to instance 'stdp_ctrl_0' of component 'stdp_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:611]
+INFO: [Synth 8-638] synthesizing module 'stdp_ctrl' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/stdp_ctrl.vhd:17]
+INFO: [Synth 8-226] default block is never used [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/stdp_ctrl.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'stdp_ctrl' (22#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/stdp_ctrl.vhd:17]
+INFO: [Synth 8-3491] module 'fifo_txd' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/fifo_txd_stub.vhdl:5' bound to instance 'fifo_txd_0' of component 'fifo_txd' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:623]
+INFO: [Synth 8-638] synthesizing module 'fifo_txd' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/fifo_txd_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'blk_mem_ORN_sc' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_ORN_sc_stub.vhdl:5' bound to instance 'blk_mem_ORN_sc_0' of component 'blk_mem_ORN_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:635]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_ORN_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_ORN_sc_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_LNPN_sc' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_LNPN_sc_stub.vhdl:5' bound to instance 'blk_mem_LNPN_sc_0' of component 'blk_mem_LNPN_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:648]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_LNPN_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_LNPN_sc_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_LNPN_I_exci' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_LNPN_I_exci_stub.vhdl:5' bound to instance 'blk_mem_LNPN_I_exci_0' of component 'blk_mem_LNPN_I_exci' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:661]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_LNPN_I_exci' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_LNPN_I_exci_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_LNPN_I_inhi' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_LNPN_I_inhi_stub.vhdl:5' bound to instance 'blk_mem_LNPN_I_inhi_0' of component 'blk_mem_LNPN_I_inhi' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:674]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_LNPN_I_inhi' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_LNPN_I_inhi_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_PN_sc' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_PN_sc_stub.vhdl:5' bound to instance 'blk_mem_PN_sc_0' of component 'blk_mem_PN_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:687]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_PN_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_PN_sc_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_KC_I' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_KC_I_stub.vhdl:5' bound to instance 'blk_mem_KC_I_0' of component 'blk_mem_KC_I' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:700]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_KC_I' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_KC_I_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_KC_sc' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_KC_sc_stub.vhdl:5' bound to instance 'blk_mem_KC_sc_0' of component 'blk_mem_KC_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:713]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_KC_sc' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_KC_sc_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_KC_sr' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_KC_sr_stub.vhdl:5' bound to instance 'blk_mem_KC_sr_0' of component 'blk_mem_KC_sr' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:726]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_KC_sr' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_KC_sr_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_weight_KC_APLMBONa3' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_KC_APLMBONa3_stub.vhdl:5' bound to instance 'blk_mem_weight_KC_APLMBONa3_0' of component 'blk_mem_weight_KC_APLMBONa3' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:739]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_KC_APLMBONa3' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_KC_APLMBONa3_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_weight_KC_MBONa1' declared at 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_KC_MBONa1_stub.vhdl:5' bound to instance 'blk_mem_weight_KC_MBONa1_0' of component 'blk_mem_weight_KC_MBONa1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:745]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_weight_KC_MBONa1' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/realtime/blk_mem_weight_KC_MBONa1_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'main' (23#1) [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:16]
+WARNING: [Synth 8-3331] design sc_accumulator_PNKC has unconnected port triger
+WARNING: [Synth 8-3331] design sc_accumulator_glomeruli_0 has unconnected port triger
+WARNING: [Synth 8-3331] design sc_accumulator_glomeruli_0 has unconnected port ORN_sc_doutb[2]
+WARNING: [Synth 8-3331] design sc_accumulator_glomeruli_0 has unconnected port ORN_sc_doutb[1]
+WARNING: [Synth 8-3331] design sc_accumulator_glomeruli_0 has unconnected port ORN_sc_doutb[0]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port triger2
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I0[3]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I0[2]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I0[1]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I0[0]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[17]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[16]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[15]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[14]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[13]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[12]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[11]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[10]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[9]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[8]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[7]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[6]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[5]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[4]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[3]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[2]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[1]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port APL_I1[0]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port MBON0_I[1]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port MBON0_I[0]
+WARNING: [Synth 8-3331] design pqn_ctrl has unconnected port MBON1_I[0]
+WARNING: [Synth 8-3331] design fifo_txd_ctrl has unconnected port FIFO_TXD_DOUT[17]
+WARNING: [Synth 8-3331] design fifo_txd_ctrl has unconnected port FIFO_TXD_DOUT[16]
+WARNING: [Synth 8-3331] design fifo_txd_ctrl has unconnected port FIFO_TXD_DOUT[15]
+WARNING: [Synth 8-3331] design fifo_txd_ctrl has unconnected port FIFO_TXD_DOUT[14]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[11]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[10]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[9]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[8]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[7]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[6]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[5]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[4]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[3]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[2]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[1]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal[0]
+WARNING: [Synth 8-3331] design triger_generator has unconnected port command_signal_flag[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 463.570 ; gain = 253.289
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 463.570 ; gain = 253.289
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_KC_I' instantiated as 'blk_mem_KC_I_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:700]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_KC_sc' instantiated as 'blk_mem_KC_sc_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:713]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_KC_sr' instantiated as 'blk_mem_KC_sr_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:726]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_LNPN_I_exci' instantiated as 'blk_mem_LNPN_I_exci_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:661]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_LNPN_I_inhi' instantiated as 'blk_mem_LNPN_I_inhi_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:674]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_LNPN_sc' instantiated as 'blk_mem_LNPN_sc_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:648]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_ORN_sc' instantiated as 'blk_mem_ORN_sc_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:635]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_PN_sc' instantiated as 'blk_mem_PN_sc_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:687]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_fc' instantiated as 'pqn_ctrl_0/blk_mem_fc_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1071]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_n' instantiated as 'pqn_ctrl_0/blk_mem_n_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1047]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_q' instantiated as 'pqn_ctrl_0/blk_mem_q_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1055]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_u' instantiated as 'pqn_ctrl_0/blk_mem_u_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1063]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_v' instantiated as 'pqn_ctrl_0/blk_mem_v_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:1039]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_KC_APLMBONa3' instantiated as 'blk_mem_weight_KC_APLMBONa3_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:739]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_KC_MBONa1' instantiated as 'blk_mem_weight_KC_MBONa1_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:745]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_PNKC_0' instantiated as 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_0_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:96]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_PNKC_1' instantiated as 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_1_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:101]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_PNKC_2' instantiated as 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_2_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_PNKC_ctrl.vhd:106]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_glomeruli_0' instantiated as 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_0_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:236]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_glomeruli_1' instantiated as 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_1_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:242]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_glomeruli_2' instantiated as 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_2_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:248]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_glomeruli_3' instantiated as 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_3_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:254]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_glomeruli_4' instantiated as 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_4_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:260]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_glomeruli_5' instantiated as 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_5_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:266]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_weight_glomeruli_6' instantiated as 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_6_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:272]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_generator' instantiated as 'clk_generator_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:472]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'fifo_rxd' instantiated as 'fifo_rxd_ctrl_0/fifo_rxd_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_rxd_ctrl.vhd:203]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'fifo_txd' instantiated as 'fifo_txd_0' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/main.vhd:623]
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp/clk_generator_in_context.xdc] for cell 'clk_generator_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp/clk_generator_in_context.xdc] for cell 'clk_generator_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_2/blk_mem_v_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_v_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_2/blk_mem_v_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_v_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_3/blk_mem_n_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_n_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_3/blk_mem_n_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_n_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_4/blk_mem_u_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_u_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_4/blk_mem_u_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_u_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_5/blk_mem_fc_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_fc_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_5/blk_mem_fc_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_fc_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_6/blk_mem_weight_glomeruli_0_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_0_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_6/blk_mem_weight_glomeruli_0_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_0_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_7/blk_mem_weight_glomeruli_1_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_1_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_7/blk_mem_weight_glomeruli_1_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_1_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_8/blk_mem_weight_glomeruli_2_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_2_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_8/blk_mem_weight_glomeruli_2_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_2_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_9/blk_mem_weight_PNKC_0_in_context.xdc] for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_0_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_9/blk_mem_weight_PNKC_0_in_context.xdc] for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_0_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_10/blk_mem_LNPN_sc_in_context.xdc] for cell 'blk_mem_LNPN_sc_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_10/blk_mem_LNPN_sc_in_context.xdc] for cell 'blk_mem_LNPN_sc_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_11/blk_mem_KC_sc_in_context.xdc] for cell 'blk_mem_KC_sc_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_11/blk_mem_KC_sc_in_context.xdc] for cell 'blk_mem_KC_sc_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_12/blk_mem_KC_sr_in_context.xdc] for cell 'blk_mem_KC_sr_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_12/blk_mem_KC_sr_in_context.xdc] for cell 'blk_mem_KC_sr_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_13/blk_mem_weight_KC_APLMBONa3_in_context.xdc] for cell 'blk_mem_weight_KC_APLMBONa3_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_13/blk_mem_weight_KC_APLMBONa3_in_context.xdc] for cell 'blk_mem_weight_KC_APLMBONa3_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_14/blk_mem_weight_KC_MBONa1_in_context.xdc] for cell 'blk_mem_weight_KC_MBONa1_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_14/blk_mem_weight_KC_MBONa1_in_context.xdc] for cell 'blk_mem_weight_KC_MBONa1_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_15/blk_mem_weight_glomeruli_5_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_5_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_15/blk_mem_weight_glomeruli_5_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_5_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_16/blk_mem_LNPN_I_exci_in_context.xdc] for cell 'blk_mem_LNPN_I_exci_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_16/blk_mem_LNPN_I_exci_in_context.xdc] for cell 'blk_mem_LNPN_I_exci_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_17/blk_mem_ORN_sc_in_context.xdc] for cell 'blk_mem_ORN_sc_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_17/blk_mem_ORN_sc_in_context.xdc] for cell 'blk_mem_ORN_sc_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_18/blk_mem_weight_glomeruli_6_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_6_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_18/blk_mem_weight_glomeruli_6_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_6_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_19/blk_mem_LNPN_I_inhi_in_context.xdc] for cell 'blk_mem_LNPN_I_inhi_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_19/blk_mem_LNPN_I_inhi_in_context.xdc] for cell 'blk_mem_LNPN_I_inhi_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_20/blk_mem_weight_glomeruli_3_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_3_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_20/blk_mem_weight_glomeruli_3_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_3_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_21/blk_mem_PN_sc_in_context.xdc] for cell 'blk_mem_PN_sc_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_21/blk_mem_PN_sc_in_context.xdc] for cell 'blk_mem_PN_sc_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_22/blk_mem_KC_I_in_context.xdc] for cell 'blk_mem_KC_I_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_22/blk_mem_KC_I_in_context.xdc] for cell 'blk_mem_KC_I_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_23/blk_mem_weight_glomeruli_4_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_4_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_23/blk_mem_weight_glomeruli_4_in_context.xdc] for cell 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_4_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_24/fifo_txd_in_context.xdc] for cell 'fifo_txd_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_24/fifo_txd_in_context.xdc] for cell 'fifo_txd_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_25/blk_mem_weight_PNKC_1_in_context.xdc] for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_1_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_25/blk_mem_weight_PNKC_1_in_context.xdc] for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_1_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_26/fifo_rxd_in_context.xdc] for cell 'fifo_rxd_ctrl_0/fifo_rxd_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_26/fifo_rxd_in_context.xdc] for cell 'fifo_rxd_ctrl_0/fifo_rxd_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_27/blk_mem_weight_PNKC_2_in_context.xdc] for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_2_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_27/blk_mem_weight_PNKC_2_in_context.xdc] for cell 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_2_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_28/blk_mem_v_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_q_0'
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp_28/blk_mem_v_in_context.xdc] for cell 'pqn_ctrl_0/blk_mem_q_0'
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/constrs_1/new/cmoda7.xdc]
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/constrs_1/new/cmoda7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/constrs_1/new/cmoda7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 774.582 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_KC_I_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_KC_sc_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_KC_sr_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_LNPN_I_exci_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_LNPN_I_inhi_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_LNPN_sc_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_ORN_sc_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_PN_sc_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_weight_KC_APLMBONa3_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'blk_mem_weight_KC_MBONa1_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'pqn_ctrl_0/blk_mem_fc_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'pqn_ctrl_0/blk_mem_n_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'pqn_ctrl_0/blk_mem_q_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'pqn_ctrl_0/blk_mem_u_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'pqn_ctrl_0/blk_mem_v_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_0_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_1_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_PNKC_ctrl_0/blk_mem_weight_PNKC_2_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_0_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_1_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_2_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_3_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_4_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_5_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'sc_accumulator_glomeruli_ctrl_0/blk_mem_weight_glomeruli_6_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:47 . Memory (MB): peak = 774.582 ; gain = 564.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:47 . Memory (MB): peak = 774.582 ; gain = 564.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK. (constraint file  D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp/clk_generator_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK. (constraint file  D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/.Xil/Vivado-29724-DESKTOP-GD656IR/dcp/clk_generator_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for pqn_ctrl_0/blk_mem_q_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:47 . Memory (MB): peak = 774.582 ; gain = 564.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'MAIN_STATE_reg' in module 'fifo_rxd_ctrl'
+INFO: [Synth 8-5544] ROM "fifo_rd_en" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MAIN_STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MAIN_STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MAIN_STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_rd_en" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MAIN_STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MAIN_STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MAIN_STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_wr_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_din" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:94]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data11_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:88]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data10_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:87]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data9_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:86]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data8_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:85]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data7_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:84]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data6_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:83]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data5_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:82]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data4_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:81]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data3_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:80]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data2_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:79]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data1_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:78]
+WARNING: [Synth 8-3936] Found unconnected internal register 'txd_data0_buff_reg' and it is trimmed from '18' to '16' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/fifo_txd_ctrl.vhd:77]
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'fifo_txd_ctrl'
+INFO: [Synth 8-5544] ROM "STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:242]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:247]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:252]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class1.vhd:257]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:246]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:251]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:256]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_Krasaviets_class2.vhd:261]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:253]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:258]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:263]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP1227_class1.vhd:268]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:258]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:263]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:268]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_NP2446_class1.vhd:273]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:202]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:207]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_PN.vhd:213]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:196]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:201]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_KC.vhd:207]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:172]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:177]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_APL.vhd:183]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:183]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:188]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_MBON.vhd:194]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:190]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:195]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/PQN_ON.vhd:201]
+INFO: [Synth 8-4471] merging register 'LNPN_I_inhi_addrb_reg[8:0]' into 'LNPN_I_exci_addrb_reg[8:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:523]
+INFO: [Synth 8-4471] merging register 'LNPN_sc_addra_reg[8:0]' into 'LNPN_I_exci_addrb_reg[8:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:524]
+INFO: [Synth 8-4471] merging register 'mem_u_addra_reg[8:0]' into 'LNPN_I_exci_addrb_reg[8:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:525]
+INFO: [Synth 8-4471] merging register 'mem_fc_addra_reg[8:0]' into 'LNPN_I_exci_addrb_reg[8:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:526]
+INFO: [Synth 8-4471] merging register 'mem_n_wea_reg[0:0]' into 'mem_v_wea_reg[0:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:728]
+INFO: [Synth 8-4471] merging register 'mem_q_wea_reg[0:0]' into 'mem_v_wea_reg[0:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:729]
+INFO: [Synth 8-4471] merging register 'mem_fc_wea_reg[0:0]' into 'mem_v_wea_reg[0:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:497]
+WARNING: [Synth 8-3936] Found unconnected internal register 'addra_KC_reg' and it is trimmed from '12' to '11' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:532]
+WARNING: [Synth 8-3936] Found unconnected internal register 'addra_PN_reg' and it is trimmed from '12' to '7' bits. [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/pqn_ctrl.vhd:529]
+INFO: [Synth 8-5544] ROM "STATE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:40]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:27]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli.vhd:40]
+INFO: [Synth 8-4471] merging register 'LNPN_I_inhi_wea_reg[0:0]' into 'LNPN_I_exci_wea_reg[0:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:351]
+INFO: [Synth 8-4471] merging register 'LNPN_I_inhi_addra_reg[8:0]' into 'LNPN_I_exci_addra_reg[8:0]' [D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.srcs/sources_1/new/sc_accumulator_glomeruli_ctrl.vhd:349]
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'sc_accumulator_glomeruli_ctrl'
+INFO: [Synth 8-5546] ROM "COUNTER0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "LNPN_I_exci_wea" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "COUNTER0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "LNPN_I_exci_wea" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "STATE" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "add_ctrl" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   ready |                              000 |                              000
+                   read0 |                              001 |                              001
+                 switch0 |                              010 |                              010
+                 switch1 |                              011 |                              011
+               decrease0 |                              100 |                              101
+               decrease1 |                              101 |                              110
+               increase0 |                              110 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'MAIN_STATE_reg' using encoding 'sequential' in module 'fifo_rxd_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   ready |                         00000001 |                             0000
+            switch_data0 |                         00000010 |                             0001
+              send_data0 |                         00000100 |                             0010
+              send_data1 |                         00001000 |                             0011
+            switch_addr0 |                         00010000 |                             0100
+              send_addr0 |                         00100000 |                             0101
+              send_addr1 |                         01000000 |                             0110
+               send_end0 |                         10000000 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'one-hot' in module 'fifo_txd_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   ready |                              000 |                            00000
+               handling0 |                              001 |                            00001
+              accum_orn0 |                              010 |                            00010
+             accum_lnpn0 |                              011 |                            00011
+              inserting0 |                              100 |                            00101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'sequential' in module 'sc_accumulator_glomeruli_ctrl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:52 . Memory (MB): peak = 774.582 ; gain = 564.301
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |pqn_ctrl__GB0 |           1|     23924|
+|2     |pqn_ctrl__GB1 |           1|      9833|
+|3     |pqn_ctrl__GB2 |           1|      7817|
+|4     |pqn_ctrl__GB3 |           1|     19421|
+|5     |main__GC0     |           1|     11890|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 4     
+	   5 Input     28 Bit       Adders := 9     
+	   9 Input     28 Bit       Adders := 1     
+	   3 Input     28 Bit       Adders := 11    
+	   4 Input     28 Bit       Adders := 14    
+	   6 Input     28 Bit       Adders := 3     
+	   8 Input     28 Bit       Adders := 2     
+	  10 Input     28 Bit       Adders := 1     
+	   5 Input     27 Bit       Adders := 5     
+	   6 Input     27 Bit       Adders := 3     
+	   3 Input     27 Bit       Adders := 4     
+	   2 Input     27 Bit       Adders := 1     
+	   4 Input     27 Bit       Adders := 1     
+	   8 Input     27 Bit       Adders := 1     
+	   2 Input     26 Bit       Adders := 2     
+	   6 Input     26 Bit       Adders := 2     
+	   8 Input     26 Bit       Adders := 2     
+	   7 Input     25 Bit       Adders := 1     
+	   4 Input     25 Bit       Adders := 1     
+	   6 Input     25 Bit       Adders := 2     
+	   3 Input     25 Bit       Adders := 2     
+	   5 Input     24 Bit       Adders := 2     
+	   5 Input     23 Bit       Adders := 1     
+	   4 Input     23 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 3     
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   4 Input     20 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 2     
+	   7 Input     18 Bit       Adders := 8     
+	   5 Input     18 Bit       Adders := 16    
+	   3 Input     18 Bit       Adders := 20    
+	   2 Input     18 Bit       Adders := 40    
+	   4 Input     18 Bit       Adders := 7     
+	   6 Input     18 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 5     
+	   2 Input     11 Bit       Adders := 9     
+	   2 Input     10 Bit       Adders := 9     
+	   2 Input      9 Bit       Adders := 13    
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 4     
+	               18 Bit    Registers := 454   
+	               17 Bit    Registers := 3     
+	               16 Bit    Registers := 13    
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 9     
+	               11 Bit    Registers := 8     
+	               10 Bit    Registers := 39    
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 4     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 12    
+	                1 Bit    Registers := 38    
++---Muxes : 
+	   4 Input     31 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 1     
+	   8 Input     31 Bit        Muxes := 2     
+	   2 Input     18 Bit        Muxes := 104   
+	   4 Input     18 Bit        Muxes := 8     
+	   7 Input     18 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 1     
+	   5 Input     17 Bit        Muxes := 1     
+	   4 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 14    
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 3     
+	   4 Input     13 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 12    
+	   4 Input     12 Bit        Muxes := 2     
+	   7 Input     12 Bit        Muxes := 1     
+	   5 Input     12 Bit        Muxes := 4     
+	   8 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 18    
+	   4 Input     11 Bit        Muxes := 5     
+	   3 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 19    
+	   5 Input      9 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 3     
+	   8 Input      8 Bit        Muxes := 1     
+	  22 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 9     
+	   7 Input      4 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   4 Input      2 Bit        Muxes := 6     
+	   6 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 5     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 81    
+	   2 Input      1 Bit        Muxes := 68    
+	  10 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 13    
+	   7 Input      1 Bit        Muxes := 16    
+	  13 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PQN_Krasavietz_class1 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     28 Bit       Adders := 4     
+	   9 Input     28 Bit       Adders := 1     
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   5 Input     27 Bit       Adders := 1     
+	   6 Input     27 Bit       Adders := 1     
+	   7 Input     25 Bit       Adders := 1     
+	   4 Input     25 Bit       Adders := 1     
+	   6 Input     25 Bit       Adders := 1     
+	   3 Input     25 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+Module PQN_PN 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 3     
+	   4 Input     28 Bit       Adders := 1     
+	   2 Input     26 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 2     
+	   2 Input     18 Bit       Adders := 3     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 1     
+	   4 Input     18 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 38    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 7     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+Module PQN_APL 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     28 Bit       Adders := 1     
+	   6 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 31    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+Module PQN_MBON 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 2     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 1     
+	   4 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 39    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 6     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+Module PQN_NP2426_class1 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     28 Bit       Adders := 2     
+	   6 Input     28 Bit       Adders := 1     
+	   8 Input     28 Bit       Adders := 2     
+	   3 Input     28 Bit       Adders := 2     
+	   4 Input     28 Bit       Adders := 4     
+	   5 Input     27 Bit       Adders := 1     
+	   6 Input     27 Bit       Adders := 1     
+	   6 Input     26 Bit       Adders := 1     
+	   8 Input     26 Bit       Adders := 1     
+	   5 Input     24 Bit       Adders := 2     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+Module PQN_ON 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 1     
+	   4 Input     18 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 36    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 7     
+	   2 Input     10 Bit        Muxes := 2     
+Module PQN_KC 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 2     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 1     
+	   4 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 39    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 7     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+Module PQN_NP1227_class1 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     28 Bit       Adders := 3     
+	  10 Input     28 Bit       Adders := 1     
+	   6 Input     28 Bit       Adders := 1     
+	   3 Input     28 Bit       Adders := 1     
+	   4 Input     28 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 2     
+	   6 Input     26 Bit       Adders := 1     
+	   8 Input     26 Bit       Adders := 1     
+	   3 Input     25 Bit       Adders := 1     
+	   6 Input     25 Bit       Adders := 1     
+	   5 Input     23 Bit       Adders := 1     
+	   3 Input     22 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+Module PQN_Krasavietz_class2 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     28 Bit       Adders := 3     
+	   6 Input     28 Bit       Adders := 1     
+	   3 Input     28 Bit       Adders := 1     
+	   2 Input     27 Bit       Adders := 1     
+	   4 Input     27 Bit       Adders := 1     
+	   5 Input     27 Bit       Adders := 3     
+	   8 Input     27 Bit       Adders := 1     
+	   6 Input     27 Bit       Adders := 1     
+	   3 Input     27 Bit       Adders := 1     
+	   2 Input     26 Bit       Adders := 1     
+	   4 Input     23 Bit       Adders := 1     
+	   4 Input     20 Bit       Adders := 1     
+	   7 Input     18 Bit       Adders := 1     
+	   5 Input     18 Bit       Adders := 2     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 41    
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+Module pqn_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 8     
+	   4 Input     18 Bit       Adders := 3     
+	   5 Input     18 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 78    
+	               12 Bit    Registers := 3     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   4 Input     18 Bit        Muxes := 7     
+	   2 Input     18 Bit        Muxes := 10    
+	   2 Input     17 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 46    
+	   2 Input      1 Bit        Muxes := 12    
+	  10 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 2     
+Module triger_generator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module uart_rxd_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     31 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 3     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module fifo_rxd_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 3     
+	               17 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   7 Input     18 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   7 Input     12 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 14    
+	   4 Input      1 Bit        Muxes := 4     
+Module uart_txd_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     31 Bit        Muxes := 1     
+	   4 Input     18 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+Module fifo_txd_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 2     
++---Registers : 
+	               31 Bit    Registers := 2     
+	               16 Bit    Registers := 13    
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   8 Input     31 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  22 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  13 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 10    
+Module sc_accumulator_glomeruli_0__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_glomeruli_0__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_glomeruli_0__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_glomeruli_0__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_glomeruli_0__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_glomeruli_0__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_glomeruli_0 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_glomeruli_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 13    
++---Registers : 
+	               18 Bit    Registers := 2     
+	               17 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   5 Input     17 Bit        Muxes := 1     
+	   5 Input     12 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 1     
+	   8 Input     12 Bit        Muxes := 1     
+	   5 Input      9 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	   7 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 9     
+Module sc_accumulator_PNKC__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+Module sc_accumulator_PNKC__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+Module sc_accumulator_PNKC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+Module sc_accumulator_PNKC_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 2     
+	               17 Bit    Registers := 1     
+	               11 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   4 Input     17 Bit        Muxes := 1     
+	   4 Input     11 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 9     
+	   3 Input     11 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 14    
+	   5 Input      1 Bit        Muxes := 1     
+Module sc_accumulator_KC_APLMBON 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module sc_accumulator_KC_APLMBON_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 3     
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     13 Bit        Muxes := 1     
+	   4 Input     11 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 7     
+	   4 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 1     
+Module stdp_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     11 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP I36_reg, operation Mode is: (A*B)'.
+DSP Report: register I36_reg is absorbed into DSP I36_reg.
+DSP Report: operator multOp is absorbed into DSP I36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+DSP Report: Generating DSP vv36_reg, operation Mode is: (A*B)'.
+DSP Report: register vv36_reg is absorbed into DSP vv36_reg.
+DSP Report: operator multOp is absorbed into DSP vv36_reg.
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/cos_s_vS_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cos_s_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/cos_s_vL_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cos_s_vL_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/cos_s_vS_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cos_s_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[0]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[1]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[2]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[3]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[4]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[5]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[6]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[7]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[8]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[9]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[10]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[11]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[12]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[13]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[14]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[15]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[16]' (FDE) to 'pqn_ctrl_0i_0/PQN_APL_Iin_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/\PQN_APL_Iin_reg[17] )
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[1]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[2]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[3]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[4]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[5]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[7]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[6]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[8]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[9]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[10]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[11]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[12]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[13]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[14]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vS_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_v_vL_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/con_v_vL_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vS_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_v_vL_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/con_v_vL_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/con_vv_vL_b0_reg[17]' (FDS) to 'pqn_ctrl_0i_0/PQN_MBON_0/cov_vv_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[6]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[7]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[8]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[9]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[10]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[11]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[12]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[13]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[14]' (FDS) to 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_n_b0_reg[14]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/con_n_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[15]' (FDS) to 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_n_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/con_n_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[16]' (FDS) to 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_n_b0_reg[17]' (FD) to 'pqn_ctrl_0i_0/PQN_APL_0/con_n_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_APL_0/con_vv_vL_b0_reg[17]' (FDS) to 'pqn_ctrl_0i_0/PQN_APL_0/cov_vv_vS_b0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_n_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_n_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[0]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[0]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[1]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[1]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[2]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[2]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[3]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[3]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[4]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[4]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[5]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[5]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[6]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[6]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[7]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[7]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[8]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[8]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[9]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[9]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[10]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[10]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[11]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[11]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[12]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[12]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[13]' (FDS) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[13]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[14]' (FDS) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[14]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[15]' (FDS) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[16]' (FDS) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[16]' (FDS) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vS_b0_reg[17]' (FDS) to 'pqn_ctrl_0i_0/PQN_PN_0/con_vv_vL_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_PN_0/con_v_vS_b0_reg[17]' (FD) to 'pqn_ctrl_0i_0/PQN_PN_0/vin_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_n_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_n_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_n_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_n_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_vv_vS_b0_reg[14]' (FD) to 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_vv_vS_b0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_vv_vS_b0_reg[15]' (FD) to 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_vv_vS_b0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_vv_vS_b0_reg[16]' (FD) to 'pqn_ctrl_0i_0/PQN_Krasavietz_class1_0/con_vv_vS_b0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'pqn_ctrl_0i_0/PQN_MBON_0/coqI0_b0_reg[0]' (FD) to 'pqn_ctrl_0i_0/PQN_MBON_0/coqI0_b0_reg[1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/PQN_MBON_0/\coqI0_b0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/PQN_PN_0/\coqI0_b0_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/PQN_APL_0/\cov_v_vS_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/PQN_APL_0/\I18_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/PQN_APL_0/\cov_Istim_b0_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/PQN_APL_0/\cov_Istim_b0_reg[17] )
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[9]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[8]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[7]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[6]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[5]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[4]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[3]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[2]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[1]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_reg[0]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[17]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[16]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[15]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[14]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[13]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[12]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[11]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[10]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[9]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[8]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[7]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[6]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[5]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[4]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[3]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[2]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[1]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_reg[0]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[17]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[16]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[15]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[14]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[13]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[12]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[11]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[10]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[9]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[8]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[7]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[6]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[5]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[4]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[3]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[2]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[1]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uin_b0_reg[0]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[17]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[16]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[15]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[14]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[13]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[12]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[11]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[10]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[9]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[8]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[7]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[6]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[5]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[4]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[3]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[2]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[1]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (uout_b0_reg[0]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[17]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[16]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[15]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[14]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[13]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[12]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[11]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[10]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[9]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[8]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[7]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[6]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[5]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[4]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[3]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[2]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[1]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (PORT_uout_reg[0]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[9]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[8]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[7]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[6]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[5]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[4]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[3]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[2]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[1]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b0_reg[0]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[9]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[8]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[7]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[6]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[5]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[4]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[3]) is unused and will be removed from module PQN_Krasavietz_class1.
+WARNING: [Synth 8-3332] Sequential element (fcin_b1_reg[2]) is unused and will be removed from module PQN_Krasavietz_class1.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_KC_0/coqI0_b0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_KC_0/coqI0_b0_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_KC_0/coqI0_b0_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_KC_0/coqI0_b0_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_KC_0/coqI0_b0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_KC_0/coqI0_b0_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_KC_0/coqI0_b0_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqI0_b0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqI0_b0_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqI0_b0_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqI0_b0_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqI0_b0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_2/\PQN_ON_0/coqIgj0_b0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/fifo_txd_ctrl_0/\uart_txd_ctrl_0/data_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pqn_ctrl_0i_0/\mem_u_dina_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/sc_accumulator_PNKC_ctrl_0/\COUNTER0_reg[10] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:20 ; elapsed = 00:01:37 . Memory (MB): peak = 774.582 ; gain = 564.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name           | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|PQN_Krasavietz_class1 | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_PN                | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_PN                | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_APL               | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_MBON              | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_NP2426_class1     | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_ON                | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_KC                | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_NP1227_class1     | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|PQN_Krasavietz_class2 | (A*B)'      | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |pqn_ctrl__GB0 |           1|     14654|
+|2     |pqn_ctrl__GB1 |           1|      6413|
+|3     |pqn_ctrl__GB2 |           1|      3770|
+|4     |pqn_ctrl__GB3 |           1|     12311|
+|5     |main__GC0     |           1|      6611|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_generator_0/clk_out1' to pin 'clk_generator_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:36 ; elapsed = 00:01:53 . Memory (MB): peak = 878.559 ; gain = 668.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:40 ; elapsed = 00:01:57 . Memory (MB): peak = 916.945 ; gain = 706.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |pqn_ctrl__GB0 |           1|     14654|
+|2     |pqn_ctrl__GB1 |           1|      6413|
+|3     |pqn_ctrl__GB2 |           1|      3770|
+|4     |pqn_ctrl__GB3 |           1|     12311|
+|5     |main__GC0     |           1|      6611|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\stdp_ctrl_0/COUNTER0_reg[2] )
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:52 ; elapsed = 00:02:09 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:54 ; elapsed = 00:02:11 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:54 ; elapsed = 00:02:11 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:56 ; elapsed = 00:02:14 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:56 ; elapsed = 00:02:14 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:57 ; elapsed = 00:02:14 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:57 ; elapsed = 00:02:14 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                           | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|main        | pqn_ctrl_0/PQN_PN_0/uout_b0_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|main        | pqn_ctrl_0/PQN_PN_0/fcin_b1_reg[9] | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
++------------+------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |clk_generator               |         1|
+|2     |fifo_txd                    |         1|
+|3     |blk_mem_ORN_sc              |         1|
+|4     |blk_mem_LNPN_sc             |         1|
+|5     |blk_mem_LNPN_I_exci         |         1|
+|6     |blk_mem_LNPN_I_inhi         |         1|
+|7     |blk_mem_PN_sc               |         1|
+|8     |blk_mem_KC_I                |         1|
+|9     |blk_mem_KC_sc               |         1|
+|10    |blk_mem_KC_sr               |         1|
+|11    |blk_mem_weight_KC_APLMBONa3 |         1|
+|12    |blk_mem_weight_KC_MBONa1    |         1|
+|13    |fifo_rxd                    |         1|
+|14    |blk_mem_u                   |         1|
+|15    |blk_mem_fc                  |         1|
+|16    |blk_mem_q                   |         1|
+|17    |blk_mem_n                   |         1|
+|18    |blk_mem_v                   |         1|
+|19    |blk_mem_weight_PNKC_0       |         1|
+|20    |blk_mem_weight_PNKC_1       |         1|
+|21    |blk_mem_weight_PNKC_2       |         1|
+|22    |blk_mem_weight_glomeruli_0  |         1|
+|23    |blk_mem_weight_glomeruli_1  |         1|
+|24    |blk_mem_weight_glomeruli_2  |         1|
+|25    |blk_mem_weight_glomeruli_3  |         1|
+|26    |blk_mem_weight_glomeruli_4  |         1|
+|27    |blk_mem_weight_glomeruli_5  |         1|
+|28    |blk_mem_weight_glomeruli_6  |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------------+------+
+|      |Cell                             |Count |
++------+---------------------------------+------+
+|1     |blk_mem_KC_I_bbox                |     1|
+|2     |blk_mem_KC_sc_bbox               |     1|
+|3     |blk_mem_KC_sr_bbox               |     1|
+|4     |blk_mem_LNPN_I_exci_bbox         |     1|
+|5     |blk_mem_LNPN_I_inhi_bbox         |     1|
+|6     |blk_mem_LNPN_sc_bbox             |     1|
+|7     |blk_mem_ORN_sc_bbox              |     1|
+|8     |blk_mem_PN_sc_bbox               |     1|
+|9     |blk_mem_fc_bbox                  |     1|
+|10    |blk_mem_n_bbox                   |     1|
+|11    |blk_mem_q_bbox                   |     1|
+|12    |blk_mem_u_bbox                   |     1|
+|13    |blk_mem_v_bbox                   |     1|
+|14    |blk_mem_weight_KC_APLMBONa3_bbox |     1|
+|15    |blk_mem_weight_KC_MBONa1_bbox    |     1|
+|16    |blk_mem_weight_PNKC_0_bbox       |     1|
+|17    |blk_mem_weight_PNKC_1_bbox       |     1|
+|18    |blk_mem_weight_PNKC_2_bbox       |     1|
+|19    |blk_mem_weight_glomeruli_0_bbox  |     1|
+|20    |blk_mem_weight_glomeruli_1_bbox  |     1|
+|21    |blk_mem_weight_glomeruli_2_bbox  |     1|
+|22    |blk_mem_weight_glomeruli_3_bbox  |     1|
+|23    |blk_mem_weight_glomeruli_4_bbox  |     1|
+|24    |blk_mem_weight_glomeruli_5_bbox  |     1|
+|25    |blk_mem_weight_glomeruli_6_bbox  |     1|
+|26    |clk_generator_bbox               |     1|
+|27    |fifo_rxd_bbox                    |     1|
+|28    |fifo_txd_bbox                    |     1|
+|29    |CARRY4                           |  1616|
+|30    |DSP48E1_1                        |     9|
+|31    |DSP48E1_2                        |     1|
+|32    |LUT1                             |  1468|
+|33    |LUT2                             |  2165|
+|34    |LUT3                             |  1980|
+|35    |LUT4                             |  1369|
+|36    |LUT5                             |  1989|
+|37    |LUT6                             |  2729|
+|38    |MUXF7                            |    43|
+|39    |SRL16E                           |     3|
+|40    |FDRE                             |  7380|
+|41    |FDSE                             |     7|
+|42    |IBUF                             |     1|
+|43    |OBUF                             |     1|
++------+---------------------------------+------+
+
+Report Instance Areas: 
++------+-----------------------------------+-------------------------------+------+
+|      |Instance                           |Module                         |Cells |
++------+-----------------------------------+-------------------------------+------+
+|1     |top                                |                               | 21205|
+|2     |  fifo_rxd_ctrl_0                  |fifo_rxd_ctrl                  |   452|
+|3     |    uart_rxd_ctrl_0                |uart_rxd_ctrl                  |   146|
+|4     |  fifo_txd_ctrl_0                  |fifo_txd_ctrl                  |   656|
+|5     |    uart_txd_ctrl_0                |uart_txd_ctrl                  |   156|
+|6     |  pqn_ctrl_0                       |pqn_ctrl                       | 17582|
+|7     |    PQN_APL_0                      |PQN_APL                        |   829|
+|8     |    PQN_KC_0                       |PQN_KC                         |  1290|
+|9     |    PQN_Krasavietz_class1_0        |PQN_Krasavietz_class1          |  2446|
+|10    |    PQN_Krasavietz_class2_0        |PQN_Krasavietz_class2          |  2352|
+|11    |    PQN_MBON_0                     |PQN_MBON                       |  1217|
+|12    |    PQN_NP1227_class1_0            |PQN_NP1227_class1              |  2441|
+|13    |    PQN_NP2426_class1_0            |PQN_NP2426_class1              |  2637|
+|14    |    PQN_ON_0                       |PQN_ON                         |   971|
+|15    |    PQN_PN_0                       |PQN_PN                         |  1524|
+|16    |  sc_accumulator_KC_APLMBON_ctrl_0 |sc_accumulator_KC_APLMBON_ctrl |   315|
+|17    |    sc_accumulator_KC_APLMBON_0_0  |sc_accumulator_KC_APLMBON      |    83|
+|18    |  sc_accumulator_PNKC_ctrl_0       |sc_accumulator_PNKC_ctrl       |   319|
+|19    |    sc_accumulator_PNKC_0          |sc_accumulator_PNKC            |    44|
+|20    |    sc_accumulator_PNKC_1          |sc_accumulator_PNKC_6          |    43|
+|21    |    sc_accumulator_PNKC_2          |sc_accumulator_PNKC_7          |    61|
+|22    |  sc_accumulator_glomeruli_ctrl_0  |sc_accumulator_glomeruli_ctrl  |  1313|
+|23    |    sc_accumulator_glomeruli_0_0   |sc_accumulator_glomeruli_0     |   120|
+|24    |    sc_accumulator_glomeruli_0_1   |sc_accumulator_glomeruli_0_0   |   118|
+|25    |    sc_accumulator_glomeruli_0_2   |sc_accumulator_glomeruli_0_1   |   118|
+|26    |    sc_accumulator_glomeruli_0_3   |sc_accumulator_glomeruli_0_2   |   154|
+|27    |    sc_accumulator_glomeruli_0_4   |sc_accumulator_glomeruli_0_3   |   194|
+|28    |    sc_accumulator_glomeruli_0_5   |sc_accumulator_glomeruli_0_4   |   118|
+|29    |    sc_accumulator_glomeruli_0_6   |sc_accumulator_glomeruli_0_5   |   133|
+|30    |  stdp_ctrl_0                      |stdp_ctrl                      |    71|
+|31    |  triger_generator_0               |triger_generator               |    49|
++------+-----------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:57 ; elapsed = 00:02:14 . Memory (MB): peak = 970.555 ; gain = 760.273
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 895 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:29 ; elapsed = 00:01:45 . Memory (MB): peak = 970.555 ; gain = 367.762
+Synthesis Optimization Complete : Time (s): cpu = 00:01:57 ; elapsed = 00:02:15 . Memory (MB): peak = 970.555 ; gain = 760.273
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1627 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+404 Infos, 226 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:57 ; elapsed = 00:02:11 . Memory (MB): peak = 970.555 ; gain = 683.652
+INFO: [Common 17-1381] The checkpoint 'D:/research/Jupyter/release/fly-olfactory-network-fpga/PNAS/code_and_data/vivado_projects/no_APL/no_APL.runs/synth_1/main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.141 . Memory (MB): peak = 970.555 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 06 13:51:20 2024...

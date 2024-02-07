@@ -1,0 +1,13 @@
+"","Class","Name","InChIKey","CID","CAS","model.response"
+"1",NA,"sfr","SFR","SFR","SFR",0
+"57","terpene","(1R)-(-)-fenchone","LHXDLQBQYFFVNW-OIBJUYFYSA-N","14525","7787-20-4",-0.098
+"74","aldehyde","E2-hexenal","MBDOYVRWFFCFHM-SNAWJCMRSA-N","5281168","6728-26-3",-0.067
+"86","ketone","2-heptanone","CATSNJVOTSVZJV-UHFFFAOYSA-N","8051","110-43-0",-0.083
+"93","ketone","cyclohexanone","JHIVVAPYMSGYDF-UHFFFAOYSA-N","7967","108-94-1",-0.086
+"103","arom","benzaldehyde","HUMNYLRZRPPJDN-UHFFFAOYSA-N","240","100-52-7",0.048
+"120","arom","4-methylphenol","IWDCLRJOBJJRNH-UHFFFAOYSA-N","2879","106-44-5",0.505
+"127","arom","4-propylphenol","KLSLBUSXWBJMEC-UHFFFAOYSA-N","12580","645-56-7",-0.041
+"155","alcohol","3-octanol","NMRPBPVERJPACX-UHFFFAOYSA-N","11527","589-98-0",-0.098
+"164","ester","ethyl acetate","XEKOWRVHYACXOJ-UHFFFAOYSA-N","8857","141-78-6",-0.072
+"170","ester","isopentyl acetate","MLFHJEHSLIIPHL-UHFFFAOYSA-N","31276","123-92-2",-0.064
+"221","other","oil","solvent","solvent","solvent",-0.028

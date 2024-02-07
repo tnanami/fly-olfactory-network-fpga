@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1693579803">
-  <File Type="PA-TCL" Name="main.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1705389880">
   <File Type="RDS-PROPCONSTRS" Name="main_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="main.tcl"/>
   <File Type="RDS-RDS" Name="main.vds"/>
   <File Type="RDS-UTIL" Name="main_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="main_utilization_synth.pb"/>
@@ -413,22 +413,22 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="clk_generator"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_v"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_glomeruli_2"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_n"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_PNKC_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_glomeruli_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_v"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_generator"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_glomeruli_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_fc"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_txd"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_u"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_fc"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_glomeruli_1"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_glomeruli_0"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_LNPN_sc"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_KC_sc"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_KC_sr"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_KC_APLMBONa3"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_KC_MBONa1"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_ORN_sc"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_KC_MBONa1"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_glomeruli_5"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_LNPN_I_exci"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_weight_glomeruli_6"/>

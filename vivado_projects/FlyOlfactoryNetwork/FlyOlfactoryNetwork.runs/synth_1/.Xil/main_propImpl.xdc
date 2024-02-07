@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/research/Jupyter/github/fly-olfactory-network-fpga-main/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/constrs_1/new/cmoda7.xdc rfile:../../../FlyOlfactoryNetwork.srcs/constrs_1/new/cmoda7.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/research/Jupyter/release/fly-olfactory-network-fpga/NeuralNetworks/code_and_data/vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.srcs/constrs_1/new/cmoda7.xdc rfile:../../../FlyOlfactoryNetwork.srcs/constrs_1/new/cmoda7.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN L17 IOSTANDARD LVCMOS33} [get_ports CLK]
 set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
