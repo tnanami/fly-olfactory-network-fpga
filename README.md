@@ -1,6 +1,5 @@
 # fly-olfactory-network-fpga
-***
-### System requirements
+## System requirements
 ### Software
 - Windows 10
 - jupyter notebook
@@ -8,8 +7,7 @@
 ### Hardware
 - Digilent cmoda7-35t (xilinx artix-a7) FPGA board
 
-***
-### Installation guide
+## Installation guide
 ### jupyter notebook
 You can download from
 https://jupyter.org/
@@ -19,8 +17,7 @@ You can download from
 https://japan.xilinx.com/support/download/index.html/content/xilinx/ja/downloadNav/vivado-design-tools/archive.html
 Installation takes several hours.
 
-***
-### Demo
+## Demo
 ### Instructions to run on data
 1. Connect Cmoda7 and PC with cable and open "./vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.xpr" using vivado
 2. Program the bitstream file into cmoda7 on vivado
@@ -30,8 +27,7 @@ You can see activities of neurons with olfactory associative learning.
 ### Expected run time for demo on a "normal" desktop computer
 It takes about 5 minutes.
 
-***
-### Instructions for use
+## Instructions for use
 ### How to run the software on your data
 1. Connect Cmoda7 and PC with cable and vivado file in "./vivado_projects"
 2. Program the bitstream file into cmoda7 using vivado
@@ -90,16 +86,15 @@ It takes about 5 minutes.
   - resource_usage.ipynb
     - This code plots resource usage
 
-***
-### Files
+## Files
 ### Resorces
 - DoOR
- - Each files show response properties of each odorant receptors.
- - These files are from http://neuro.uni-konstanz.de/DoOR/default.html
+	- Each files show response properties of each odorant receptors.
+	- These files are from http://neuro.uni-konstanz.de/DoOR/default.html
 ### invivo_results
 recorded data from each type of neurons
 - LN
- - from [Seki et al., *Journal of Neurophysiology*, 2010]
+	- from [Seki et al., *Journal of Neurophysiology*, 2010]
 - PN
 - KC
 - MBON
