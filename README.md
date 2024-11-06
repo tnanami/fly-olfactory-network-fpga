@@ -21,7 +21,7 @@ Installation takes several hours.
 ### Instructions to run on data
 1. Connect Cmoda7 and PC with cable and open "./vivado_projects/FlyOlfactoryNetwork/FlyOlfactoryNetwork.xpr" using vivado
 2. Program the bitstream file into cmoda7 on vivado
-3. Run "./03_demo/run_OAL_demo.ipynb" on jupyter notebook (please set PORT_NAME properly).
+3. Run "./02_insilico_experiments/run_OAL_demo.ipynb" on jupyter notebook (please set PORT_NAME properly).
 ### Expected output
 You can see activities of neurons with olfactory associative learning.
 ### Expected run time for demo on a "normal" desktop computer
